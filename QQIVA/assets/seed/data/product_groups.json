@@ -1,0 +1,44 @@
+[
+  {
+    "id": "phao",
+    "code": "PHÀO",
+    "name": "Phào",
+    "sort_order": 10,
+    "system_kind": "PHAO"
+  },
+  {
+    "id": "tran",
+    "code": "TRẦN",
+    "name": "Hoa văn",
+    "sort_order": 20,
+    "system_kind": "CEILING"
+  },
+  {
+    "id": "hoa-van",
+    "code": "HOA VĂN",
+    "name": "Mâm trần",
+    "sort_order": 30,
+    "system_kind": "DECOR"
+  },
+  {
+    "id": "grp-64699c7beea7",
+    "code": "GROUP_GRP_64699C7BEEA7",
+    "name": "Hoa góc",
+    "sort_order": 40,
+    "system_kind": "CUSTOM"
+  },
+  {
+    "id": "grp-f86432fd7fe9",
+    "code": "GROUP_GRP_F86432FD7FE9",
+    "name": "Cột - con sơn",
+    "sort_order": 50,
+    "system_kind": "CUSTOM"
+  },
+  {
+    "id": "ungrouped",
+    "code": "CHƯA PHÂN NHÓM",
+    "name": "Chưa phân nhóm",
+    "sort_order": 999,
+    "system_kind": "UNGROUPED"
+  }
+]

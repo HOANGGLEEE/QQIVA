@@ -1,0 +1,32 @@
+[
+  {
+    "id": "PAY-CB0A92FE9785",
+    "type": "PAYMENT",
+    "invoice_id": "DOC-20260901192244-20663a",
+    "project_uid": "PRJ-b8c68631721e",
+    "customer": "Anh khai baza",
+    "project": "Ninh Hiệp",
+    "document_no": "INV-2026-0020",
+    "amount": 82715800.0,
+    "date": "2026-09-01",
+    "method": "CK",
+    "note": "Thanh toán hoàn tất công trình",
+    "created_at": "2026-09-01T21:05:15",
+    "created_by": "QQIVA_LOCAL"
+  },
+  {
+    "id": "PAY-E38C414970F6",
+    "type": "PAYMENT",
+    "invoice_id": "DOC-20260904114920-a821f4",
+    "project_uid": "",
+    "customer": "",
+    "project": "",
+    "document_no": "INV-2026-0039",
+    "amount": 2616000.0,
+    "date": "2026-09-04",
+    "method": "CK",
+    "note": "Thanh toán hoàn tất công trình",
+    "created_at": "2026-09-04T11:51:52",
+    "created_by": "QQIVA_LOCAL"
+  }
+]

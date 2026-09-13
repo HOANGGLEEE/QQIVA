@@ -1,0 +1,37 @@
+{
+  "schema_version": "qqiva.professional.preferences.v1",
+  "default_customize": {
+    "schema": "qqiva.professional.customize.v1",
+    "fields": {
+      "theme": "GOLD",
+      "layout": "CATALOG",
+      "format": "A4",
+      "density": "LARGE",
+      "imageSize": "MEDIUM",
+      "productColumns": "3",
+      "imageRatio": "LANDSCAPE",
+      "imageFit": "cover",
+      "backgroundOverlay": "0.15",
+      "longMode": "AUTO",
+      "heroStyle": "SPLIT",
+      "productGap": "NORMAL",
+      "cardRadius": "MEDIUM",
+      "blockPadding": "NORMAL",
+      "tableStyle": "PANEL"
+    },
+    "checks": {
+      "adShowCompany": true,
+      "adShowImages": true,
+      "adShowTable": true,
+      "adShowTableImages": true,
+      "adShowDescription": true,
+      "adShowUnit": true,
+      "adShowQty": true,
+      "adShowPrice": true,
+      "adShowTotal": true,
+      "adShowContact": true,
+      "adMissingAsContact": true
+    }
+  },
+  "updated_at": "2026-09-07T22:13:40"
+}

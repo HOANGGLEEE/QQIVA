@@ -1,0 +1,321 @@
+[
+  {
+    "schema_version": "contract-1.1.0",
+    "id": "con-e01add296185",
+    "contract_no": "11112",
+    "title": "HỢP ĐỒNG KINH TẾ",
+    "category": "CONSTRUCTION",
+    "template_id": "tpl-9832e6203a",
+    "status": "DRAFT",
+    "customer": "Aaaaaaaaaa",
+    "project": "BIỆT THỰ",
+    "contract_date": "2026-09-05",
+    "sign_place": "Bắc Ninh",
+    "start_date": "2026-09-05",
+    "end_date": "2026-09-23",
+    "party_a": "Âssđffhjk",
+    "party_b": "Ghjj",
+    "parties": {
+      "a": {
+        "name": "Âssđffhjk",
+        "role": "Nhà thầu thi công",
+        "representative": "Fhjknb",
+        "title": "Dcv",
+        "tax_code": "4ip94568",
+        "id_no": "569087",
+        "id_issue_date": "2026-09-01",
+        "id_issue_place": "Dghjjb",
+        "address": "Hy",
+        "phone": "8888888",
+        "email": "",
+        "bank_account": "4567788",
+        "bank": "Acb",
+        "bank_details": "Vu xuan ninh ngân hàng acb 3457900"
+      },
+      "b": {
+        "name": "Ghjj",
+        "role": "Chủ nhà",
+        "representative": "Ghio",
+        "title": "Hjj",
+        "tax_code": "5789",
+        "id_no": "Dt9",
+        "id_issue_date": "",
+        "id_issue_place": "",
+        "address": "Bn",
+        "phone": "66666666",
+        "email": "",
+        "bank_account": "",
+        "bank": "",
+        "bank_details": ""
+      }
+    },
+    "sections": [
+      {
+        "id": "sec-mto7qs1h-4dhs5y",
+        "title": "ĐIỀU 1. NỘI DUNG HỢP ĐỒNG:",
+        "content": "Bên A giao cho Bên B thực hiện thi công nội thất phần: {{work_scope}}\nVật liệu sử dụng\nVật liệu được sử dụng để thi công : {{materials}}\n( Kèm theo bảng kê phụ lục hợp đồng )"
+      },
+      {
+        "id": "sec-mto7qs1h-cu2owl",
+        "title": "ĐIỀU 2 . GIÁ TRỊ HỢP ĐỒNG",
+        "content": "2.1 Giá Trị hợp đồng:\nTổng giá trị hợp đồng là: {{contract_value_before_vat}} ({{contract_value_before_vat_words}})\n(Chi tiết từng phần được thể hiện cụ thể ở các phụ lục kèm theo của HĐ) {{vat_text}}\n- Số tiền trên là giá trị khối lượng công việc dùng để thực hiện trong việc thanh toán tạm ứng từng giai đoạn.\n2.2 Tạm ứng và thanh toán:\n{{payment_schedule_text}}\n2.3 Chi phí phát sinh nếu có :\nNếu công việc phát sinh không có trong hợp đồng thì hai bên cần thỏa thuận thống nhất với nhau về đơn giá, lập thành phụ lục đơn giá và khối lượng công việc phát sinh.\nNếu công việc phát sinh là nhỏ lẻ, việc phụ thì phát sinh được tính trên cơ sở là ngày công làm việc.\nĐơn giá ngày công làm việc là {{extra_day_rate}} VNĐ/người/ngày"
+      },
+      {
+        "id": "sec-mto7qs1h-hep0ph",
+        "title": "ĐIỀU 3: TIẾN ĐỘ THI CÔNG, THỜI HẠN HOÀN THÀNH VÀ BIỆN PHÁP THI CÔNG",
+        "content": "3.1 Ngày khởi công:\nNgày khởi công là ngày: {{start_date_vi}}\n3.2 Thời hạn hoàn thành:\nTiến độ thi công dựa trên tình hình mặt bằng của công trình , dự kiến hoàn thành trong {{duration_days}} ngày kể từ ngày khởi công\nTiến độ được gia hạn thêm thời gian hoàn thành do những chậm trễ trở ngại bên phía chủ đầu tư, mặt bằng thi công hoặc các nhà thầu phụ khác của chủ đầu tư gây ra, những nguyên nhân khách quan về thay đổi, điều chỉnh hợp đồng, về biến động thời tiết, về lỗi các nhà chức trách và về các nguyên nhân bất khả kháng được quy định khác\n3.3 Biện pháp thi công:\nBên B tự tổ chức và hoàn toàn tự chịu trách nhiệm về nhân sự thi công, tổ chức mặt bằng thi công và các biện pháp thi công trên công trường trên cơ sở  chất lượng, tiến độ công việc, đảm bảo an toàn cho người, cho công trình và các tài sản xung quanh."
+      },
+      {
+        "id": "sec-mto7qs1h-ffcgpm",
+        "title": "ĐIỀU 4 : CÁC ĐIỀU KIỆN BẤT KHẢ KHÁNG",
+        "content": "Sự kiện bất khả kháng là sự kiện xảy ra mang tính khách quan và nằm ngoài tầm kiểm soát của các bên, không thể lường trước được khi kí hợp đồng như hỏa hoạn , thiên tai , bão lũ , sự thay đổi chính  sách hoặc ngăn cấm của cơ quan có thẩm quyền của Việt Nam.\nViệc một bên không hoàn thành nghĩa vụ của mình do sự kiện bất khả kháng sẽ không phải là cơ sở để bên kia chấm dứt hợp đồng.\nTrong trường hợp do những biến động của thị trường, Bên B có khó khăn trong việc tìm mua được nguồn vật liệu đã cam kết trong hợp đồng này, Bên A sẽ xem xét theo đề nghị của Bên B để thay đổi vật liệu sử dụng và giá cả trong trường hợp này sẽ được điều chỉnh và qui định trong phụ lục hợp đồng."
+      },
+      {
+        "id": "sec-mto7qs1h-rcitrm",
+        "title": "ĐIỀU 5: TRANH CHẤP VÀ GIẢI QUYẾT TRANH CHẤP",
+        "content": "Trong trường hợp xảy ra tranh chấp , các bên phải có trách nhiệm thương lượng giải quyết trên nguyên tắc tôn trọng lẫn nhau và chất lượng sản phẩm là số 1.\nTrường hợp không đạt được thỏa thuận giữa các bên, sẽ có sự can thiệp bởi cơ quan pháp luật. Quyết định của cơ quan pháp luật là quyết định cuối cùng và ràng buộc của các bên thực thi.\nPhí tòa án và tất cả chi phí khác sẽ do bên thua kiện chịu, trừ khi có một thỏa thuận nào khác giữa hai bên."
+      },
+      {
+        "id": "sec-mto7qs1h-xb3abe",
+        "title": "ĐIỀU 6 : QUYỀN VÀ NGHĨA VỤ CỦA BÊN B ( NHÀ THẦU)",
+        "content": "6.1 Nghĩa vụ của bên B :\nBên B phải thi công và hoàn thành công trình, đảm bảo chất lượng, kỹ thuật và mỹ thuật theo đúng yêu cầu ban đầu các chỉ dẫn về vật liệu, các chỉ dẫn của bên A. Hoàn thành công trình đúng tiến độ. Hoàn toàn chịu trách nhiệm về các sai sót do mình gây ra.\nBên B phải chủ động bố trí nhân lực, thiết bị, máy móc, vật tư vật liệu hay các dịch vụ khác được đòi hỏi và cần thiết trong quá trình thi công, sửa chữa các sai sót. Đảm bảo về tính pháp lý của sử dụng lao động, vật tư vật liệu, máy móc trên công trường.\nBên B phải chịu trách nhiệm hoàn toàn về các quy trình, tính đầy đủ, ổn định, an toàn của các thao tác thi công trên công trường và trình bày các biện pháp thi công cho bên A . Hoàn toàn chịu trách nhiệm về các sai sót và thiết hại do mất an toàn trên công trường gây ra.\nBên B chỉ hoạt động giới hạn trong phạm vi công trường mà bên A cho phép. Phải tuân thủ các quy định chung về đảm bảo trật tự an toàn, đảm bảo môi trường chung quanh khu vực công trường thi công.\nBên B phải cam kết sử dụng tiền tạm ứng chỉ cho phục vụ mục đích thi công công trình theo hợp đồng. Chịu trách nhiệm trước pháp luật về việc sử dụng sai mục đích và các nghĩa vụ về công việc trong hợp đồng.\nBên B phải có trách nhiệm thông báo cho chủ đầu tư biết khi thay đổi người đại diện công ty, người thực hiện hợp đồng và các thông tin về mặt pháp lý khác.\nBên B có trách nhiệm bảo hành hạng mục thi công thời hạn {{warranty_months}} tháng, kể từ sau khi hai bên tiến hành nghiệm thu bàn giao công trình đưa vào sử dụng. Phạm vi bảo hành như được quy định trong phạm vi các công việc thực hiện của bên B ( Điều 1)\n6.2 Quyền của bên B:\nTừ chối các công việc không phù hợp với các quy định của pháp luật, gây nguy hiểm cho người tham gia thi công.\nQuyền được tiếp cận công trường, sử dụng các điều kiện sẵn có tại công trường như điện, nước, các lối đi lại và các tài liệu phục vụ cho công tác thi công.\nNếu Bên A không tuân thủ điều 3.2 về tạm ứng và thanh toán, Bên B có thể ngừng thi công sau khi thông báo cho Bên A, không muộn hơn {{late_payment_notice_days}} ngày, cho đến khi bên B được tạm ứng và thanh toán theo những điều khoản như trong hợp đồng.\nViệc tạm ngừng thi công do lỗi của bên A sẽ hoàn toàn không ảnh hưởng đến quyền lợi của bên B đối với các chi phí tài chính khác trong hợp đồng, bên A sẽ phải chịu trách nhiệm trả lãi suất {{late_payment_rate}}% x số tiền trả chậm x số ngày trả chậm cho bên B đồng thời chịu các chi phí phát sinh thiệt hại nếu có cho bên B.\nBên B có quyền đơn phương chấm dứt hợp đồng nếu bên A không tuân thủ các điều kiện quy định về thanh toán cho bên A quá {{termination_overdue_days}} ngày, khởi kiện bên A ra tòa và đòi bồi thường thiệt hại do chấm dứt hợp đồng gây ra đối với bên B."
+      },
+      {
+        "id": "sec-mto7qs1h-qz3izp",
+        "title": "ĐIỀU 7 : QUYỀN VÀ NGHĨA VỤ CỦA BÊN A ( CHỦ ĐẦU TƯ)",
+        "content": "7.1 Nghĩa vụ của bên A:\nĐảm bảo tính pháp lý của công việc thi công xây dựng và chịu trách nhiệm liên quan đến giấy phép xây dựng, về các điều kiện để khởi công, thi công xây dựng.\nCung cấp đầy đủ hồ sơ khảo sát hiện trạng, hồ sơ thiết kế bản vẽ thi công, các chỉ dẫn vật liệu nếu có, và các tài liệu khác liên quan đến công việc thi công. Bàn giao mặt bằng và quyền tiếp cận công trường cho bên B.\nTrường hợp thay đổi thiết kế Bên A phải thông báo trước cho bên B để hai bên cùng trao đổi, giải quyết. Nếu hạng mục thi công bên B đã thực hiện, đúng thiết kế trước , thì khi thay đổi bên B phải chịu toàn bộ chi phí hạng mục đã thi công trước đó đồng thời thỏa thuận lại phát sinh hạng mục thi công theo thiết kế mới.\nChỉ định người trực tiếp làm việc hoặc giám sát thi công xây dựng để cùng với bên B trao đổi công việc, giám sát thi công tại công trường, phối hợp nghiệm thu sản phẩm tại công trường và tại xưởng thi công.\nTổ chức nghiệm thu, thanh toán cho bên B đúng thời hạn như quy định trong hợp đồng khi có yêu cầu nghiệm thu thanh toán của bên B ứng với mỗi giai đoạn.\n7.2 Quyền của bên A:\nGiám sát kiểm tra chất lượng sản phẩm trong suốt quá trình thi công.\nTừ chối chấp thuận vật liệu, hàng hóa, sản phẩm và yêu cầu bên B vận chuyển ra ngay khỏi công trường trong trường hợp không đạt yêu cầu, không đúng chủng loại mẫu mã như trong quy định. Không chịu trách nhiệm bất kì thiệt hại nào do trả lại các lô hàng gây ra cho bên B.\nNếu bên B không thực hiện nghĩa vụ theo hợp đồng, bên A thông báo yêu cầu bên B phải thực hiện, sửa chữa những sai hỏng trong khoảng thời gian hợp lý cụ thể.\nBên A sẽ đơn phương chấm dứt hợp đồng, trục xuất ra khỏi công trường và khởi kiện bên B ra tòa đòi bồi thường thiệt hại do chấm dứt hợp đồng gây ra trong các trường hợp bên B không tuân thủ các nghĩa vụ trong hợp đồng, bỏ dở công trình hoặc thể hiện rõ ràng ý định không muốn tiếp tục thực hiện nghĩa vụ hợp đồng, không có lí do chính đáng mà lại không tiếp tục thực hiện công trình theo đúng tiến độ và thời hạn hoàn thành đã cam kết."
+      },
+      {
+        "id": "sec-mto7qs1h-d93qhj",
+        "title": "ĐIỀU 8: CÁC ĐIỀU KHOẢN CHUNG",
+        "content": "Hợp đồng này cũng như tất cả các tài liệu, thông tin liên quan đến hợp đồng sẽ được các bên\nquản lý theo quy định hiện hành của Nhà nước về bảo mật.\nHai bên cam kết thực hiện tốt các điều khoản đã thỏa thuận trong hợp đồng.\n{{contract_copies_text}}\nHợp đồng có hiệu lực sau khi được ký kết."
+      }
+    ],
+    "content": "ĐIỀU 1. NỘI DUNG HỢP ĐỒNG:\nBên A giao cho Bên B thực hiện thi công nội thất phần: {{work_scope}}\nVật liệu sử dụng\nVật liệu được sử dụng để thi công : {{materials}}\n( Kèm theo bảng kê phụ lục hợp đồng )\n\nĐIỀU 2 . GIÁ TRỊ HỢP ĐỒNG\n2.1 Giá Trị hợp đồng:\nTổng giá trị hợp đồng là: {{contract_value_before_vat}} ({{contract_value_before_vat_words}})\n(Chi tiết từng phần được thể hiện cụ thể ở các phụ lục kèm theo của HĐ) {{vat_text}}\n- Số tiền trên là giá trị khối lượng công việc dùng để thực hiện trong việc thanh toán tạm ứng từng giai đoạn.\n2.2 Tạm ứng và thanh toán:\n{{payment_schedule_text}}\n2.3 Chi phí phát sinh nếu có :\nNếu công việc phát sinh không có trong hợp đồng thì hai bên cần thỏa thuận thống nhất với nhau về đơn giá, lập thành phụ lục đơn giá và khối lượng công việc phát sinh.\nNếu công việc phát sinh là nhỏ lẻ, việc phụ thì phát sinh được tính trên cơ sở là ngày công làm việc.\nĐơn giá ngày công làm việc là {{extra_day_rate}} VNĐ/người/ngày\n\nĐIỀU 3: TIẾN ĐỘ THI CÔNG, THỜI HẠN HOÀN THÀNH VÀ BIỆN PHÁP THI CÔNG\n3.1 Ngày khởi công:\nNgày khởi công là ngày: {{start_date_vi}}\n3.2 Thời hạn hoàn thành:\nTiến độ thi công dựa trên tình hình mặt bằng của công trình , dự kiến hoàn thành trong {{duration_days}} ngày kể từ ngày khởi công\nTiến độ được gia hạn thêm thời gian hoàn thành do những chậm trễ trở ngại bên phía chủ đầu tư, mặt bằng thi công hoặc các nhà thầu phụ khác của chủ đầu tư gây ra, những nguyên nhân khách quan về thay đổi, điều chỉnh hợp đồng, về biến động thời tiết, về lỗi các nhà chức trách và về các nguyên nhân bất khả kháng được quy định khác\n3.3 Biện pháp thi công:\nBên B tự tổ chức và hoàn toàn tự chịu trách nhiệm về nhân sự thi công, tổ chức mặt bằng thi công và các biện pháp thi công trên công trường trên cơ sở  chất lượng, tiến độ công việc, đảm bảo an toàn cho người, cho công trình và các tài sản xung quanh.\n\nĐIỀU 4 : CÁC ĐIỀU KIỆN BẤT KHẢ KHÁNG\nSự kiện bất khả kháng là sự kiện xảy ra mang tính khách quan và nằm ngoài tầm kiểm soát của các bên, không thể lường trước được khi kí hợp đồng như hỏa hoạn , thiên tai , bão lũ , sự thay đổi chính  sách hoặc ngăn cấm của cơ quan có thẩm quyền của Việt Nam.\nViệc một bên không hoàn thành nghĩa vụ của mình do sự kiện bất khả kháng sẽ không phải là cơ sở để bên kia chấm dứt hợp đồng.\nTrong trường hợp do những biến động của thị trường, Bên B có khó khăn trong việc tìm mua được nguồn vật liệu đã cam kết trong hợp đồng này, Bên A sẽ xem xét theo đề nghị của Bên B để thay đổi vật liệu sử dụng và giá cả trong trường hợp này sẽ được điều chỉnh và qui định trong phụ lục hợp đồng.\n\nĐIỀU 5: TRANH CHẤP VÀ GIẢI QUYẾT TRANH CHẤP\nTrong trường hợp xảy ra tranh chấp , các bên phải có trách nhiệm thương lượng giải quyết trên nguyên tắc tôn trọng lẫn nhau và chất lượng sản phẩm là số 1.\nTrường hợp không đạt được thỏa thuận giữa các bên, sẽ có sự can thiệp bởi cơ quan pháp luật. Quyết định của cơ quan pháp luật là quyết định cuối cùng và ràng buộc của các bên thực thi.\nPhí tòa án và tất cả chi phí khác sẽ do bên thua kiện chịu, trừ khi có một thỏa thuận nào khác giữa hai bên.\n\nĐIỀU 6 : QUYỀN VÀ NGHĨA VỤ CỦA BÊN B ( NHÀ THẦU)\n6.1 Nghĩa vụ của bên B :\nBên B phải thi công và hoàn thành công trình, đảm bảo chất lượng, kỹ thuật và mỹ thuật theo đúng yêu cầu ban đầu các chỉ dẫn về vật liệu, các chỉ dẫn của bên A. Hoàn thành công trình đúng tiến độ. Hoàn toàn chịu trách nhiệm về các sai sót do mình gây ra.\nBên B phải chủ động bố trí nhân lực, thiết bị, máy móc, vật tư vật liệu hay các dịch vụ khác được đòi hỏi và cần thiết trong quá trình thi công, sửa chữa các sai sót. Đảm bảo về tính pháp lý của sử dụng lao động, vật tư vật liệu, máy móc trên công trường.\nBên B phải chịu trách nhiệm hoàn toàn về các quy trình, tính đầy đủ, ổn định, an toàn của các thao tác thi công trên công trường và trình bày các biện pháp thi công cho bên A . Hoàn toàn chịu trách nhiệm về các sai sót và thiết hại do mất an toàn trên công trường gây ra.\nBên B chỉ hoạt động giới hạn trong phạm vi công trường mà bên A cho phép. Phải tuân thủ các quy định chung về đảm bảo trật tự an toàn, đảm bảo môi trường chung quanh khu vực công trường thi công.\nBên B phải cam kết sử dụng tiền tạm ứng chỉ cho phục vụ mục đích thi công công trình theo hợp đồng. Chịu trách nhiệm trước pháp luật về việc sử dụng sai mục đích và các nghĩa vụ về công việc trong hợp đồng.\nBên B phải có trách nhiệm thông báo cho chủ đầu tư biết khi thay đổi người đại diện công ty, người thực hiện hợp đồng và các thông tin về mặt pháp lý khác.\nBên B có trách nhiệm bảo hành hạng mục thi công thời hạn {{warranty_months}} tháng, kể từ sau khi hai bên tiến hành nghiệm thu bàn giao công trình đưa vào sử dụng. Phạm vi bảo hành như được quy định trong phạm vi các công việc thực hiện của bên B ( Điều 1)\n6.2 Quyền của bên B:\nTừ chối các công việc không phù hợp với các quy định của pháp luật, gây nguy hiểm cho người tham gia thi công.\nQuyền được tiếp cận công trường, sử dụng các điều kiện sẵn có tại công trường như điện, nước, các lối đi lại và các tài liệu phục vụ cho công tác thi công.\nNếu Bên A không tuân thủ điều 3.2 về tạm ứng và thanh toán, Bên B có thể ngừng thi công sau khi thông báo cho Bên A, không muộn hơn {{late_payment_notice_days}} ngày, cho đến khi bên B được tạm ứng và thanh toán theo những điều khoản như trong hợp đồng.\nViệc tạm ngừng thi công do lỗi của bên A sẽ hoàn toàn không ảnh hưởng đến quyền lợi của bên B đối với các chi phí tài chính khác trong hợp đồng, bên A sẽ phải chịu trách nhiệm trả lãi suất {{late_payment_rate}}% x số tiền trả chậm x số ngày trả chậm cho bên B đồng thời chịu các chi phí phát sinh thiệt hại nếu có cho bên B.\nBên B có quyền đơn phương chấm dứt hợp đồng nếu bên A không tuân thủ các điều kiện quy định về thanh toán cho bên A quá {{termination_overdue_days}} ngày, khởi kiện bên A ra tòa và đòi bồi thường thiệt hại do chấm dứt hợp đồng gây ra đối với bên B.\n\nĐIỀU 7 : QUYỀN VÀ NGHĨA VỤ CỦA BÊN A ( CHỦ ĐẦU TƯ)\n7.1 Nghĩa vụ của bên A:\nĐảm bảo tính pháp lý của công việc thi công xây dựng và chịu trách nhiệm liên quan đến giấy phép xây dựng, về các điều kiện để khởi công, thi công xây dựng.\nCung cấp đầy đủ hồ sơ khảo sát hiện trạng, hồ sơ thiết kế bản vẽ thi công, các chỉ dẫn vật liệu nếu có, và các tài liệu khác liên quan đến công việc thi công. Bàn giao mặt bằng và quyền tiếp cận công trường cho bên B.\nTrường hợp thay đổi thiết kế Bên A phải thông báo trước cho bên B để hai bên cùng trao đổi, giải quyết. Nếu hạng mục thi công bên B đã thực hiện, đúng thiết kế trước , thì khi thay đổi bên B phải chịu toàn bộ chi phí hạng mục đã thi công trước đó đồng thời thỏa thuận lại phát sinh hạng mục thi công theo thiết kế mới.\nChỉ định người trực tiếp làm việc hoặc giám sát thi công xây dựng để cùng với bên B trao đổi công việc, giám sát thi công tại công trường, phối hợp nghiệm thu sản phẩm tại công trường và tại xưởng thi công.\nTổ chức nghiệm thu, thanh toán cho bên B đúng thời hạn như quy định trong hợp đồng khi có yêu cầu nghiệm thu thanh toán của bên B ứng với mỗi giai đoạn.\n7.2 Quyền của bên A:\nGiám sát kiểm tra chất lượng sản phẩm trong suốt quá trình thi công.\nTừ chối chấp thuận vật liệu, hàng hóa, sản phẩm và yêu cầu bên B vận chuyển ra ngay khỏi công trường trong trường hợp không đạt yêu cầu, không đúng chủng loại mẫu mã như trong quy định. Không chịu trách nhiệm bất kì thiệt hại nào do trả lại các lô hàng gây ra cho bên B.\nNếu bên B không thực hiện nghĩa vụ theo hợp đồng, bên A thông báo yêu cầu bên B phải thực hiện, sửa chữa những sai hỏng trong khoảng thời gian hợp lý cụ thể.\nBên A sẽ đơn phương chấm dứt hợp đồng, trục xuất ra khỏi công trường và khởi kiện bên B ra tòa đòi bồi thường thiệt hại do chấm dứt hợp đồng gây ra trong các trường hợp bên B không tuân thủ các nghĩa vụ trong hợp đồng, bỏ dở công trình hoặc thể hiện rõ ràng ý định không muốn tiếp tục thực hiện nghĩa vụ hợp đồng, không có lí do chính đáng mà lại không tiếp tục thực hiện công trình theo đúng tiến độ và thời hạn hoàn thành đã cam kết.\n\nĐIỀU 8: CÁC ĐIỀU KHOẢN CHUNG\nHợp đồng này cũng như tất cả các tài liệu, thông tin liên quan đến hợp đồng sẽ được các bên\nquản lý theo quy định hiện hành của Nhà nước về bảo mật.\nHai bên cam kết thực hiện tốt các điều khoản đã thỏa thuận trong hợp đồng.\n{{contract_copies_text}}\nHợp đồng có hiệu lực sau khi được ký kết.",
+    "base_value": 1308000.0,
+    "vat_percent": 0,
+    "discount": 0,
+    "value": 1308000.0,
+    "deposit": 0,
+    "remaining": 1308000.0,
+    "payment_terms": [
+      {
+        "id": "pay-mto7qs1i-aor0wt",
+        "name": "Giai đoạn 1",
+        "amount": 0,
+        "percent": 40.0,
+        "due_date": "",
+        "method": "TRANSFER",
+        "note": "Sau khi ký hợp đồng và Bên B chuyển vật liệu đến công trình"
+      },
+      {
+        "id": "pay-mto7qs1i-qh5okd",
+        "name": "Giai đoạn 2",
+        "amount": 0,
+        "percent": 40.0,
+        "due_date": "",
+        "method": "TRANSFER",
+        "note": "Khi Bên B triển khai hạng mục thi công tiếp theo"
+      },
+      {
+        "id": "pay-mto7qs1i-rk3vfk",
+        "name": "Thanh toán còn lại",
+        "amount": 0,
+        "percent": 0,
+        "due_date": "",
+        "method": "TRANSFER",
+        "note": "Sau khi hoàn thiện, nghiệm thu; thanh toán phần còn lại sau khi trừ các khoản đã tạm ứng/thanh toán"
+      }
+    ],
+    "variables": {
+      "work_title": "VỀ VIỆC THI CÔNG TRẦN - PHÀO CHỈ PU",
+      "project_name": "Dhjnn",
+      "project_address": "Dghnn",
+      "work_scope": "Trần thạch cao vĩnh tường khung xương basy tấm siêu bảo vệ",
+      "materials": "Trần thạch cao xương cá chịu lực basy tấm thạch cao siêu bảo vệ vĩnh tường . Phào chỉ PU nhập khẩu akhoa và vật tư phụ chuyên dụng, tất cả là hàng mới 100%.( Kèm theo bảng kê phụ lục hợp đồng )",
+      "extra_day_rate": "500000",
+      "duration_days": "",
+      "warranty_months": "12",
+      "late_payment_rate": "1",
+      "late_payment_notice_days": "5",
+      "termination_overdue_days": "30",
+      "final_payment_days": "15",
+      "contract_copies": "2"
+    },
+    "links": {
+      "document_id": "",
+      "document_type": "",
+      "project_uid": ""
+    },
+    "business_id": "",
+    "branch_id": "",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "2026-09-05T17:09:00",
+    "updated_at": "2026-09-05T17:16:29"
+  },
+  {
+    "schema_version": "contract-1.1.0",
+    "id": "con-541c45906ac2",
+    "contract_no": "HD66888 chú đông",
+    "title": "HỢP ĐỒNG KINH TẾ",
+    "category": "CONSTRUCTION",
+    "template_id": "tpl-9832e6203a",
+    "status": "DRAFT",
+    "customer": "A aaaaaaa",
+    "project": "BIỆT THỰ",
+    "contract_date": "2026-09-05",
+    "sign_place": "Bac ninh",
+    "start_date": "2026-09-01",
+    "end_date": "2026-09-26",
+    "party_a": "A aaaaaa",
+    "party_b": "Nha dep quyền quý",
+    "parties": {
+      "a": {
+        "name": "A aaaaaa",
+        "role": "Chủ đầu tư",
+        "representative": "A aaaaaaaaaa",
+        "title": "GD",
+        "tax_code": "5678",
+        "id_no": "45999998",
+        "id_issue_date": "2026-09-01",
+        "id_issue_place": "",
+        "address": "Bac njnh",
+        "phone": "6666699999",
+        "email": "",
+        "bank_account": "458",
+        "bank": "Acb",
+        "bank_details": "Vu xuan ninh can 899988"
+      },
+      "b": {
+        "name": "Nha dep quyền quý",
+        "role": "Nhà thầu",
+        "representative": "Nnnnnn",
+        "title": "Gd",
+        "tax_code": "678997y5",
+        "id_no": "4568",
+        "id_issue_date": "2026-09-01",
+        "id_issue_place": "",
+        "address": "Rtyhgghh",
+        "phone": "888888888",
+        "email": "",
+        "bank_account": "56899",
+        "bank": "Aaaaa",
+        "bank_details": "Vu xuan ninh acb"
+      }
+    },
+    "sections": [
+      {
+        "id": "sec-mto8teor-xzl8vo",
+        "title": "Điều 1. NỘI DUNG HỢP ĐỒNG:",
+        "content": "Bên A giao cho Bên B thực hiện thi công nội thất phần: {{work_scope}}\nVật liệu sử dụng\nVật liệu được sử dụng để thi công : {{materials}}\n( Kèm theo bảng kê phụ lục hợp đồng )"
+      },
+      {
+        "id": "sec-mto8teos-cxqy2f",
+        "title": "Điều 2 . GIÁ TRỊ HỢP ĐỒNG",
+        "content": "2.1 Giá Trị hợp đồng:\nTổng giá trị hợp đồng là: {{contract_value_before_vat}} ({{contract_value_before_vat_words}})\n(Chi tiết từng phần được thể hiện cụ thể ở các phụ lục kèm theo của HĐ) {{vat_text}}\n- Số tiền trên là giá trị khối lượng công việc dùng để thực hiện trong việc thanh toán tạm ứng từng giai đoạn.\n2.2 Tạm ứng và thanh toán:\n{{payment_schedule_text}}\n2.3 Chi phí phát sinh nếu có :\nNếu công việc phát sinh không có trong hợp đồng thì hai bên cần thỏa thuận thống nhất với nhau về đơn giá, lập thành phụ lục đơn giá và khối lượng công việc phát sinh.\nNếu công việc phát sinh là nhỏ lẻ, việc phụ thì phát sinh được tính trên cơ sở là ngày công làm việc.\nĐơn giá ngày công làm việc là {{extra_day_rate}} VNĐ/người/ngày"
+      },
+      {
+        "id": "sec-mto8teos-n20nly",
+        "title": "ĐIỀU 3: TIẾN ĐỘ THI CÔNG, THỜI HẠN HOÀN THÀNH VÀ BIỆN PHÁP THI CÔNG",
+        "content": "3.1 Ngày khởi công:\nNgày khởi công là ngày: {{start_date_vi}}\n3.2 Thời hạn hoàn thành:\nTiến độ thi công dựa trên tình hình mặt bằng của công trình , dự kiến hoàn thành trong {{duration_days}} ngày kể từ ngày khởi công\nTiến độ được gia hạn thêm thời gian hoàn thành do những chậm trễ trở ngại bên phía chủ đầu tư, mặt bằng thi công hoặc các nhà thầu phụ khác của chủ đầu tư gây ra, những nguyên nhân khách quan về thay đổi, điều chỉnh hợp đồng, về biến động thời tiết, về lỗi các nhà chức trách và về các nguyên nhân bất khả kháng được quy định khác\n3.3 Biện pháp thi công:\nBên B tự tổ chức và hoàn toàn tự chịu trách nhiệm về nhân sự thi công, tổ chức mặt bằng thi công và các biện pháp thi công trên công trường trên cơ sở  chất lượng, tiến độ công việc, đảm bảo an toàn cho người, cho công trình và các tài sản xung quanh."
+      },
+      {
+        "id": "sec-mto8teos-8hxrfr",
+        "title": "ĐIỀU 4 : CÁC ĐIỀU KIỆN BẤT KHẢ KHÁNG",
+        "content": "Sự kiện bất khả kháng là sự kiện xảy ra mang tính khách quan và nằm ngoài tầm kiểm soát của các bên, không thể lường trước được khi kí hợp đồng như hỏa hoạn , thiên tai , bão lũ , sự thay đổi chính  sách hoặc ngăn cấm của cơ quan có thẩm quyền của Việt Nam.\nViệc một bên không hoàn thành nghĩa vụ của mình do sự kiện bất khả kháng sẽ không phải là cơ sở để bên kia chấm dứt hợp đồng.\nTrong trường hợp do những biến động của thị trường, Bên B có khó khăn trong việc tìm mua được nguồn vật liệu đã cam kết trong hợp đồng này, Bên A sẽ xem xét theo đề nghị của Bên B để thay đổi vật liệu sử dụng và giá cả trong trường hợp này sẽ được điều chỉnh và qui định trong phụ lục hợp đồng."
+      },
+      {
+        "id": "sec-mto8teos-a459n8",
+        "title": "ĐIỀU 5: TRANH CHẤP VÀ GIẢI QUYẾT TRANH CHẤP",
+        "content": "Trong trường hợp xảy ra tranh chấp , các bên phải có trách nhiệm thương lượng giải quyết trên nguyên tắc tôn trọng lẫn nhau và chất lượng sản phẩm là số 1.\nTrường hợp không đạt được thỏa thuận giữa các bên, sẽ có sự can thiệp bởi cơ quan pháp luật. Quyết định của cơ quan pháp luật là quyết định cuối cùng và ràng buộc của các bên thực thi.\nPhí tòa án và tất cả chi phí khác sẽ do bên thua kiện chịu, trừ khi có một thỏa thuận nào khác giữa hai bên."
+      },
+      {
+        "id": "sec-mto8teos-48o04p",
+        "title": "ĐIỀU 6 : QUYỀN VÀ NGHĨA VỤ CỦA BÊN B ( NHÀ THẦU)",
+        "content": "6.1 Nghĩa vụ của bên B :\nBên B phải thi công và hoàn thành công trình, đảm bảo chất lượng, kỹ thuật và mỹ thuật theo đúng yêu cầu ban đầu các chỉ dẫn về vật liệu, các chỉ dẫn của bên A. Hoàn thành công trình đúng tiến độ. Hoàn toàn chịu trách nhiệm về các sai sót do mình gây ra.\nBên B phải chủ động bố trí nhân lực, thiết bị, máy móc, vật tư vật liệu hay các dịch vụ khác được đòi hỏi và cần thiết trong quá trình thi công, sửa chữa các sai sót. Đảm bảo về tính pháp lý của sử dụng lao động, vật tư vật liệu, máy móc trên công trường.\nBên B phải chịu trách nhiệm hoàn toàn về các quy trình, tính đầy đủ, ổn định, an toàn của các thao tác thi công trên công trường và trình bày các biện pháp thi công cho bên A . Hoàn toàn chịu trách nhiệm về các sai sót và thiết hại do mất an toàn trên công trường gây ra.\nBên B chỉ hoạt động giới hạn trong phạm vi công trường mà bên A cho phép. Phải tuân thủ các quy định chung về đảm bảo trật tự an toàn, đảm bảo môi trường chung quanh khu vực công trường thi công.\nBên B phải cam kết sử dụng tiền tạm ứng chỉ cho phục vụ mục đích thi công công trình theo hợp đồng. Chịu trách nhiệm trước pháp luật về việc sử dụng sai mục đích và các nghĩa vụ về công việc trong hợp đồng.\nBên B phải có trách nhiệm thông báo cho chủ đầu tư biết khi thay đổi người đại diện công ty, người thực hiện hợp đồng và các thông tin về mặt pháp lý khác.\nBên B có trách nhiệm bảo hành hạng mục thi công thời hạn {{warranty_months}} tháng, kể từ sau khi hai bên tiến hành nghiệm thu bàn giao công trình đưa vào sử dụng. Phạm vi bảo hành như được quy định trong phạm vi các công việc thực hiện của bên B ( Điều 1)\n6.2 Quyền của bên B:\nTừ chối các công việc không phù hợp với các quy định của pháp luật, gây nguy hiểm cho người tham gia thi công.\nQuyền được tiếp cận công trường, sử dụng các điều kiện sẵn có tại công trường như điện, nước, các lối đi lại và các tài liệu phục vụ cho công tác thi công.\nNếu Bên A không tuân thủ điều 3.2 về tạm ứng và thanh toán, Bên B có thể ngừng thi công sau khi thông báo cho Bên A, không muộn hơn {{late_payment_notice_days}} ngày, cho đến khi bên B được tạm ứng và thanh toán theo những điều khoản như trong hợp đồng.\nViệc tạm ngừng thi công do lỗi của bên A sẽ hoàn toàn không ảnh hưởng đến quyền lợi của bên B đối với các chi phí tài chính khác trong hợp đồng, bên A sẽ phải chịu trách nhiệm trả lãi suất {{late_payment_rate}}% x số tiền trả chậm x số ngày trả chậm cho bên B đồng thời chịu các chi phí phát sinh thiệt hại nếu có cho bên B.\nBên B có quyền đơn phương chấm dứt hợp đồng nếu bên A không tuân thủ các điều kiện quy định về thanh toán cho bên A quá {{termination_overdue_days}} ngày, khởi kiện bên A ra tòa và đòi bồi thường thiệt hại do chấm dứt hợp đồng gây ra đối với bên B."
+      },
+      {
+        "id": "sec-mto8teos-p2ciyr",
+        "title": "ĐIỀU 7 : QUYỀN VÀ NGHĨA VỤ CỦA BÊN A ( CHỦ ĐẦU TƯ)",
+        "content": "7.1 Nghĩa vụ của bên A:\nĐảm bảo tính pháp lý của công việc thi công xây dựng và chịu trách nhiệm liên quan đến giấy phép xây dựng, về các điều kiện để khởi công, thi công xây dựng.\nCung cấp đầy đủ hồ sơ khảo sát hiện trạng, hồ sơ thiết kế bản vẽ thi công, các chỉ dẫn vật liệu nếu có, và các tài liệu khác liên quan đến công việc thi công. Bàn giao mặt bằng và quyền tiếp cận công trường cho bên B.\nTrường hợp thay đổi thiết kế Bên A phải thông báo trước cho bên B để hai bên cùng trao đổi, giải quyết. Nếu hạng mục thi công bên B đã thực hiện, đúng thiết kế trước , thì khi thay đổi bên B phải chịu toàn bộ chi phí hạng mục đã thi công trước đó đồng thời thỏa thuận lại phát sinh hạng mục thi công theo thiết kế mới.\nChỉ định người trực tiếp làm việc hoặc giám sát thi công xây dựng để cùng với bên B trao đổi công việc, giám sát thi công tại công trường, phối hợp nghiệm thu sản phẩm tại công trường và tại xưởng thi công.\nTổ chức nghiệm thu, thanh toán cho bên B đúng thời hạn như quy định trong hợp đồng khi có yêu cầu nghiệm thu thanh toán của bên B ứng với mỗi giai đoạn.\n7.2 Quyền của bên A:\nGiám sát kiểm tra chất lượng sản phẩm trong suốt quá trình thi công.\nTừ chối chấp thuận vật liệu, hàng hóa, sản phẩm và yêu cầu bên B vận chuyển ra ngay khỏi công trường trong trường hợp không đạt yêu cầu, không đúng chủng loại mẫu mã như trong quy định. Không chịu trách nhiệm bất kì thiệt hại nào do trả lại các lô hàng gây ra cho bên B.\nNếu bên B không thực hiện nghĩa vụ theo hợp đồng, bên A thông báo yêu cầu bên B phải thực hiện, sửa chữa những sai hỏng trong khoảng thời gian hợp lý cụ thể.\nBên A sẽ đơn phương chấm dứt hợp đồng, trục xuất ra khỏi công trường và khởi kiện bên B ra tòa đòi bồi thường thiệt hại do chấm dứt hợp đồng gây ra trong các trường hợp bên B không tuân thủ các nghĩa vụ trong hợp đồng, bỏ dở công trình hoặc thể hiện rõ ràng ý định không muốn tiếp tục thực hiện nghĩa vụ hợp đồng, không có lí do chính đáng mà lại không tiếp tục thực hiện công trình theo đúng tiến độ và thời hạn hoàn thành đã cam kết."
+      },
+      {
+        "id": "sec-mto8teos-gltjdl",
+        "title": "ĐIỀU 8: CÁC ĐIỀU KHOẢN CHUNG",
+        "content": "Hợp đồng này cũng như tất cả các tài liệu, thông tin liên quan đến hợp đồng sẽ được các bên\nquản lý theo quy định hiện hành của Nhà nước về bảo mật.\nHai bên cam kết thực hiện tốt các điều khoản đã thỏa thuận trong hợp đồng.\n{{contract_copies_text}}\nHợp đồng có hiệu lực sau khi được ký kết."
+      }
+    ],
+    "content": "Điều 1. NỘI DUNG HỢP ĐỒNG:\nBên A giao cho Bên B thực hiện thi công nội thất phần: {{work_scope}}\nVật liệu sử dụng\nVật liệu được sử dụng để thi công : {{materials}}\n( Kèm theo bảng kê phụ lục hợp đồng )\n\nĐiều 2 . GIÁ TRỊ HỢP ĐỒNG\n2.1 Giá Trị hợp đồng:\nTổng giá trị hợp đồng là: {{contract_value_before_vat}} ({{contract_value_before_vat_words}})\n(Chi tiết từng phần được thể hiện cụ thể ở các phụ lục kèm theo của HĐ) {{vat_text}}\n- Số tiền trên là giá trị khối lượng công việc dùng để thực hiện trong việc thanh toán tạm ứng từng giai đoạn.\n2.2 Tạm ứng và thanh toán:\n{{payment_schedule_text}}\n2.3 Chi phí phát sinh nếu có :\nNếu công việc phát sinh không có trong hợp đồng thì hai bên cần thỏa thuận thống nhất với nhau về đơn giá, lập thành phụ lục đơn giá và khối lượng công việc phát sinh.\nNếu công việc phát sinh là nhỏ lẻ, việc phụ thì phát sinh được tính trên cơ sở là ngày công làm việc.\nĐơn giá ngày công làm việc là {{extra_day_rate}} VNĐ/người/ngày\n\nĐIỀU 3: TIẾN ĐỘ THI CÔNG, THỜI HẠN HOÀN THÀNH VÀ BIỆN PHÁP THI CÔNG\n3.1 Ngày khởi công:\nNgày khởi công là ngày: {{start_date_vi}}\n3.2 Thời hạn hoàn thành:\nTiến độ thi công dựa trên tình hình mặt bằng của công trình , dự kiến hoàn thành trong {{duration_days}} ngày kể từ ngày khởi công\nTiến độ được gia hạn thêm thời gian hoàn thành do những chậm trễ trở ngại bên phía chủ đầu tư, mặt bằng thi công hoặc các nhà thầu phụ khác của chủ đầu tư gây ra, những nguyên nhân khách quan về thay đổi, điều chỉnh hợp đồng, về biến động thời tiết, về lỗi các nhà chức trách và về các nguyên nhân bất khả kháng được quy định khác\n3.3 Biện pháp thi công:\nBên B tự tổ chức và hoàn toàn tự chịu trách nhiệm về nhân sự thi công, tổ chức mặt bằng thi công và các biện pháp thi công trên công trường trên cơ sở  chất lượng, tiến độ công việc, đảm bảo an toàn cho người, cho công trình và các tài sản xung quanh.\n\nĐIỀU 4 : CÁC ĐIỀU KIỆN BẤT KHẢ KHÁNG\nSự kiện bất khả kháng là sự kiện xảy ra mang tính khách quan và nằm ngoài tầm kiểm soát của các bên, không thể lường trước được khi kí hợp đồng như hỏa hoạn , thiên tai , bão lũ , sự thay đổi chính  sách hoặc ngăn cấm của cơ quan có thẩm quyền của Việt Nam.\nViệc một bên không hoàn thành nghĩa vụ của mình do sự kiện bất khả kháng sẽ không phải là cơ sở để bên kia chấm dứt hợp đồng.\nTrong trường hợp do những biến động của thị trường, Bên B có khó khăn trong việc tìm mua được nguồn vật liệu đã cam kết trong hợp đồng này, Bên A sẽ xem xét theo đề nghị của Bên B để thay đổi vật liệu sử dụng và giá cả trong trường hợp này sẽ được điều chỉnh và qui định trong phụ lục hợp đồng.\n\nĐIỀU 5: TRANH CHẤP VÀ GIẢI QUYẾT TRANH CHẤP\nTrong trường hợp xảy ra tranh chấp , các bên phải có trách nhiệm thương lượng giải quyết trên nguyên tắc tôn trọng lẫn nhau và chất lượng sản phẩm là số 1.\nTrường hợp không đạt được thỏa thuận giữa các bên, sẽ có sự can thiệp bởi cơ quan pháp luật. Quyết định của cơ quan pháp luật là quyết định cuối cùng và ràng buộc của các bên thực thi.\nPhí tòa án và tất cả chi phí khác sẽ do bên thua kiện chịu, trừ khi có một thỏa thuận nào khác giữa hai bên.\n\nĐIỀU 6 : QUYỀN VÀ NGHĨA VỤ CỦA BÊN B ( NHÀ THẦU)\n6.1 Nghĩa vụ của bên B :\nBên B phải thi công và hoàn thành công trình, đảm bảo chất lượng, kỹ thuật và mỹ thuật theo đúng yêu cầu ban đầu các chỉ dẫn về vật liệu, các chỉ dẫn của bên A. Hoàn thành công trình đúng tiến độ. Hoàn toàn chịu trách nhiệm về các sai sót do mình gây ra.\nBên B phải chủ động bố trí nhân lực, thiết bị, máy móc, vật tư vật liệu hay các dịch vụ khác được đòi hỏi và cần thiết trong quá trình thi công, sửa chữa các sai sót. Đảm bảo về tính pháp lý của sử dụng lao động, vật tư vật liệu, máy móc trên công trường.\nBên B phải chịu trách nhiệm hoàn toàn về các quy trình, tính đầy đủ, ổn định, an toàn của các thao tác thi công trên công trường và trình bày các biện pháp thi công cho bên A . Hoàn toàn chịu trách nhiệm về các sai sót và thiết hại do mất an toàn trên công trường gây ra.\nBên B chỉ hoạt động giới hạn trong phạm vi công trường mà bên A cho phép. Phải tuân thủ các quy định chung về đảm bảo trật tự an toàn, đảm bảo môi trường chung quanh khu vực công trường thi công.\nBên B phải cam kết sử dụng tiền tạm ứng chỉ cho phục vụ mục đích thi công công trình theo hợp đồng. Chịu trách nhiệm trước pháp luật về việc sử dụng sai mục đích và các nghĩa vụ về công việc trong hợp đồng.\nBên B phải có trách nhiệm thông báo cho chủ đầu tư biết khi thay đổi người đại diện công ty, người thực hiện hợp đồng và các thông tin về mặt pháp lý khác.\nBên B có trách nhiệm bảo hành hạng mục thi công thời hạn {{warranty_months}} tháng, kể từ sau khi hai bên tiến hành nghiệm thu bàn giao công trình đưa vào sử dụng. Phạm vi bảo hành như được quy định trong phạm vi các công việc thực hiện của bên B ( Điều 1)\n6.2 Quyền của bên B:\nTừ chối các công việc không phù hợp với các quy định của pháp luật, gây nguy hiểm cho người tham gia thi công.\nQuyền được tiếp cận công trường, sử dụng các điều kiện sẵn có tại công trường như điện, nước, các lối đi lại và các tài liệu phục vụ cho công tác thi công.\nNếu Bên A không tuân thủ điều 3.2 về tạm ứng và thanh toán, Bên B có thể ngừng thi công sau khi thông báo cho Bên A, không muộn hơn {{late_payment_notice_days}} ngày, cho đến khi bên B được tạm ứng và thanh toán theo những điều khoản như trong hợp đồng.\nViệc tạm ngừng thi công do lỗi của bên A sẽ hoàn toàn không ảnh hưởng đến quyền lợi của bên B đối với các chi phí tài chính khác trong hợp đồng, bên A sẽ phải chịu trách nhiệm trả lãi suất {{late_payment_rate}}% x số tiền trả chậm x số ngày trả chậm cho bên B đồng thời chịu các chi phí phát sinh thiệt hại nếu có cho bên B.\nBên B có quyền đơn phương chấm dứt hợp đồng nếu bên A không tuân thủ các điều kiện quy định về thanh toán cho bên A quá {{termination_overdue_days}} ngày, khởi kiện bên A ra tòa và đòi bồi thường thiệt hại do chấm dứt hợp đồng gây ra đối với bên B.\n\nĐIỀU 7 : QUYỀN VÀ NGHĨA VỤ CỦA BÊN A ( CHỦ ĐẦU TƯ)\n7.1 Nghĩa vụ của bên A:\nĐảm bảo tính pháp lý của công việc thi công xây dựng và chịu trách nhiệm liên quan đến giấy phép xây dựng, về các điều kiện để khởi công, thi công xây dựng.\nCung cấp đầy đủ hồ sơ khảo sát hiện trạng, hồ sơ thiết kế bản vẽ thi công, các chỉ dẫn vật liệu nếu có, và các tài liệu khác liên quan đến công việc thi công. Bàn giao mặt bằng và quyền tiếp cận công trường cho bên B.\nTrường hợp thay đổi thiết kế Bên A phải thông báo trước cho bên B để hai bên cùng trao đổi, giải quyết. Nếu hạng mục thi công bên B đã thực hiện, đúng thiết kế trước , thì khi thay đổi bên B phải chịu toàn bộ chi phí hạng mục đã thi công trước đó đồng thời thỏa thuận lại phát sinh hạng mục thi công theo thiết kế mới.\nChỉ định người trực tiếp làm việc hoặc giám sát thi công xây dựng để cùng với bên B trao đổi công việc, giám sát thi công tại công trường, phối hợp nghiệm thu sản phẩm tại công trường và tại xưởng thi công.\nTổ chức nghiệm thu, thanh toán cho bên B đúng thời hạn như quy định trong hợp đồng khi có yêu cầu nghiệm thu thanh toán của bên B ứng với mỗi giai đoạn.\n7.2 Quyền của bên A:\nGiám sát kiểm tra chất lượng sản phẩm trong suốt quá trình thi công.\nTừ chối chấp thuận vật liệu, hàng hóa, sản phẩm và yêu cầu bên B vận chuyển ra ngay khỏi công trường trong trường hợp không đạt yêu cầu, không đúng chủng loại mẫu mã như trong quy định. Không chịu trách nhiệm bất kì thiệt hại nào do trả lại các lô hàng gây ra cho bên B.\nNếu bên B không thực hiện nghĩa vụ theo hợp đồng, bên A thông báo yêu cầu bên B phải thực hiện, sửa chữa những sai hỏng trong khoảng thời gian hợp lý cụ thể.\nBên A sẽ đơn phương chấm dứt hợp đồng, trục xuất ra khỏi công trường và khởi kiện bên B ra tòa đòi bồi thường thiệt hại do chấm dứt hợp đồng gây ra trong các trường hợp bên B không tuân thủ các nghĩa vụ trong hợp đồng, bỏ dở công trình hoặc thể hiện rõ ràng ý định không muốn tiếp tục thực hiện nghĩa vụ hợp đồng, không có lí do chính đáng mà lại không tiếp tục thực hiện công trình theo đúng tiến độ và thời hạn hoàn thành đã cam kết.\n\nĐIỀU 8: CÁC ĐIỀU KHOẢN CHUNG\nHợp đồng này cũng như tất cả các tài liệu, thông tin liên quan đến hợp đồng sẽ được các bên\nquản lý theo quy định hiện hành của Nhà nước về bảo mật.\nHai bên cam kết thực hiện tốt các điều khoản đã thỏa thuận trong hợp đồng.\n{{contract_copies_text}}\nHợp đồng có hiệu lực sau khi được ký kết.",
+    "base_value": 500000000.0,
+    "vat_percent": 10.0,
+    "discount": 0,
+    "value": 550000000.0,
+    "deposit": 0,
+    "remaining": 550000000.0,
+    "payment_terms": [
+      {
+        "id": "pay-mto8teot-gq2fax",
+        "name": "Giai đoạn 1",
+        "amount": 0,
+        "percent": 30.0,
+        "due_date": "",
+        "method": "TRANSFER",
+        "note": "Sau khi ký hợp đồng và Bên B chuyển vật liệu đến công trình"
+      },
+      {
+        "id": "pay-mto8teot-ks8llc",
+        "name": "Giai đoạn 2",
+        "amount": 0,
+        "percent": 30.0,
+        "due_date": "",
+        "method": "TRANSFER",
+        "note": "Khi Bên B triển khai hạng mục thi công tiếp theo"
+      },
+      {
+        "id": "pay-mto8teot-mnfj1i",
+        "name": "Thanh toán còn lại",
+        "amount": 0,
+        "percent": 20.0,
+        "due_date": "",
+        "method": "TRANSFER",
+        "note": "Sau khi hoàn thiện, nghiệm thu; thanh toán phần còn lại sau khi trừ các khoản đã tạm ứng/thanh toán"
+      },
+      {
+        "id": "pay-mto90dyc-pqtdpu",
+        "name": "Giai đoạn 4",
+        "amount": 0,
+        "percent": 20.0,
+        "due_date": "",
+        "method": "TRANSFER",
+        "note": ""
+      }
+    ],
+    "variables": {
+      "work_title": "VỀ VIỆC THI CÔNG TRẦN - PHÀO CHỈ PU",
+      "project_name": "BIỆT THỰ",
+      "project_address": "BẮC NINH",
+      "work_scope": "Trần thạch cao vĩnh tường khung xương basy tấm siêu bảo vệ, trần nhựa nano và phào chỉ pu",
+      "materials": "Trần thạch cao xương cá chịu lực basy tấm thạch cao siêu bảo vệ vĩnh tường . Phào chỉ PU nhập khẩu akhoa và vật tư phụ chuyên dụng, tất cả là hàng mới 100%.( Kèm theo bảng kê phụ lục hợp đồng )",
+      "extra_day_rate": "500000",
+      "duration_days": "",
+      "warranty_months": "12",
+      "late_payment_rate": "1",
+      "late_payment_notice_days": "5",
+      "termination_overdue_days": "30",
+      "final_payment_days": "15",
+      "contract_copies": "2"
+    },
+    "links": {
+      "document_id": "",
+      "document_type": "",
+      "project_uid": ""
+    },
+    "business_id": "",
+    "branch_id": "",
+    "created_by": "",
+    "updated_by": "",
+    "created_at": "2026-09-05T17:38:16",
+    "updated_at": "2026-09-05T17:55:17"
+  }
+]

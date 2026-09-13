@@ -1,0 +1,158 @@
+[
+  {
+    "at": "2026-09-01T17:54:30",
+    "action": "MERGE_PROJECT",
+    "source_ids": [
+      "DOC-20260901120743-06382d"
+    ],
+    "target_ids": [
+      "DOC-20260901103805-8855d4"
+    ],
+    "project_uid": "PRJ-b8c68631721e",
+    "source_before": [
+      {
+        "customer": "Anh Khải baza.",
+        "customer_code": "",
+        "address": "",
+        "project_code": "",
+        "project_uid": ""
+      }
+    ],
+    "target_identity": {
+      "customer": "Anh khai baza",
+      "customer_code": "",
+      "address": "Ninh Hiệp",
+      "project_code": "",
+      "project_uid": ""
+    }
+  },
+  {
+    "at": "2026-09-01T17:54:40",
+    "action": "MERGE_PROJECT",
+    "source_ids": [
+      "DOC-20260901120743-06382d"
+    ],
+    "target_ids": [
+      "DOC-20260901103805-8855d4"
+    ],
+    "project_uid": "PRJ-b8c68631721e",
+    "source_before": [
+      {
+        "customer": "Anh khai baza",
+        "customer_code": "",
+        "address": "Ninh Hiệp",
+        "project_code": "",
+        "project_uid": "PRJ-b8c68631721e"
+      }
+    ],
+    "target_identity": {
+      "customer": "Anh khai baza",
+      "customer_code": "",
+      "address": "Ninh Hiệp",
+      "project_code": "",
+      "project_uid": "PRJ-b8c68631721e"
+    }
+  },
+  {
+    "at": "2026-09-01T20:12:30",
+    "action": "UPDATE_IDENTITY",
+    "doc_ids": [
+      "DOC-20260901192244-20663a",
+      "DOC-20260901103805-8855d4",
+      "DOC-20260901120743-06382d"
+    ],
+    "project_uid": "PRJ-b8c68631721e",
+    "before": [
+      {
+        "customer": "Anh khai baza",
+        "customer_code": "",
+        "address": "Ninh Hiệp",
+        "project_code": "",
+        "project_uid": "PRJ-b8c68631721e"
+      },
+      {
+        "customer": "Anh khai baza",
+        "customer_code": "",
+        "address": "Ninh Hiệp",
+        "project_code": "",
+        "project_uid": "PRJ-b8c68631721e"
+      },
+      {
+        "customer": "Anh khai baza",
+        "customer_code": "",
+        "address": "Ninh Hiệp",
+        "project_code": "",
+        "project_uid": "PRJ-b8c68631721e"
+      }
+    ],
+    "after": {
+      "customer": "Anh khai baza",
+      "customer_code": "",
+      "address": "Ninh Hiệp",
+      "project_code": ""
+    }
+  },
+  {
+    "at": "2026-09-01T21:38:45",
+    "action": "AUDIT_REPAIR_PROJECT",
+    "doc_id": "DOC-20260831134106-b72a60",
+    "before": {
+      "customer": "Anh Khải",
+      "customer_code": "",
+      "address": "Ninh Hiệp",
+      "project_code": "",
+      "project_uid": ""
+    },
+    "after": {
+      "customer": "Anh khai baza",
+      "customer_code": "",
+      "address": "Ninh Hiệp",
+      "project_code": "",
+      "project_uid": "PRJ-b8c68631721e"
+    },
+    "project_uid": "PRJ-b8c68631721e",
+    "mode": "ATTACH_EXISTING"
+  },
+  {
+    "at": "2026-09-01T22:33:37",
+    "action": "AUDIT_REPAIR_PROJECT",
+    "doc_id": "DOC-20260831191626-a55f34",
+    "before": {
+      "customer": "Anh a",
+      "customer_code": "123",
+      "address": "Ninh hiệp",
+      "project_code": "455",
+      "project_uid": ""
+    },
+    "after": {
+      "customer": "Anh khai baza",
+      "customer_code": "",
+      "address": "Ninh Hiệp",
+      "project_code": "",
+      "project_uid": "PRJ-b8c68631721e"
+    },
+    "project_uid": "PRJ-b8c68631721e",
+    "mode": "ATTACH_EXISTING"
+  },
+  {
+    "at": "2026-09-01T22:34:48",
+    "action": "AUDIT_REPAIR_PROJECT",
+    "doc_id": "DOC-20260831233715-858973",
+    "before": {
+      "customer": "Fgj",
+      "customer_code": "56",
+      "address": "Rti",
+      "project_code": "56",
+      "project_uid": ""
+    },
+    "after": {
+      "customer": "Anh khai baza",
+      "customer_code": "",
+      "address": "Ninh Hiệp",
+      "project_code": "",
+      "project_uid": "PRJ-b8c68631721e"
+    },
+    "project_uid": "PRJ-b8c68631721e",
+    "mode": "ATTACH_EXISTING"
+  }
+]

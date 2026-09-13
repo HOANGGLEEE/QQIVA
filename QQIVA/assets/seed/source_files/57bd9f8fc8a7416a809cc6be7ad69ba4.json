@@ -1,0 +1,834 @@
+{
+  "schema_version": "INVOICE_JSON_SCHEMA_V1",
+  "workflow": "ACTUAL_MEASUREMENT_IMAGE_TO_INVOICE_JSON",
+  "validator_status": "NEED_USER_CONFIRMATION",
+  "project": {
+    "name": "Anh Khải baza...",
+    "status": "NEED_USER_CONFIRMATION",
+    "confidence": "LOW"
+  },
+  "floors": [
+    {
+      "name": "Tầng 1",
+      "floor_order": 1,
+      "rooms": [
+        {
+          "name": "Bếp",
+          "items": [
+            {
+              "name": "Cổ trần",
+              "category": "Cổ trần",
+              "unit": "m",
+              "qty": 14.77,
+              "formula": "2,88 + 3,16 + 2,1 + 4,65 + 1,82 + 0,16",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "co_tran",
+              "unit_price": 0
+            },
+            {
+              "name": "Mâm trần φ600",
+              "category": "Mâm trần",
+              "unit": "cái",
+              "qty": 1,
+              "formula": "1",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "mam_tran_phi600",
+              "unit_price": 0
+            }
+          ]
+        },
+        {
+          "name": "Phòng khách",
+          "items": [
+            {
+              "name": "Cổ trần",
+              "category": "Cổ trần",
+              "unit": "m",
+              "qty": 24.22,
+              "formula": "(7,61 + 4,5) x 2",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "co_tran",
+              "unit_price": 0
+            },
+            {
+              "name": "Hắt sáng",
+              "category": "Hắt sáng",
+              "unit": "m",
+              "qty": 15.52,
+              "formula": "(5,15 + 2,61) x 2",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "hat_sang",
+              "unit_price": 0
+            },
+            {
+              "name": "Hắt sáng uốn",
+              "category": "Hắt sáng uốn",
+              "unit": "m",
+              "qty": 2.4,
+              "formula": "0,6 x 4",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "hat_sang_uon",
+              "unit_price": 0
+            },
+            {
+              "name": "Nẹp đáy + khung trần",
+              "category": "Nẹp đáy + khung trần",
+              "unit": "m",
+              "qty": 27.3,
+              "formula": "(4,11 + 1,62) x 2 + (5,23 + 2,69) x 2",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "nep_day_khung_tran",
+              "unit_price": 0
+            },
+            {
+              "name": "Nẹp đáy uốn + khung trần uốn",
+              "category": "Nẹp đáy uốn + khung trần uốn",
+              "unit": "m",
+              "qty": 4.0,
+              "formula": "(0,6 + 0,4) x 4",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "nep_day_khung_tran_uon",
+              "unit_price": 0
+            },
+            {
+              "name": "Mâm ghép",
+              "category": "Mâm ghép",
+              "unit": "bộ",
+              "qty": 1,
+              "formula": "1",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "mam_ghep",
+              "unit_price": 0
+            },
+            {
+              "name": "Mâm trần φ600",
+              "category": "Mâm trần",
+              "unit": "cái",
+              "qty": 1,
+              "formula": "1",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "mam_tran_phi600",
+              "unit_price": 0
+            },
+            {
+              "name": "Hoa góc trần",
+              "category": "Hoa góc trần",
+              "unit": "cái",
+              "qty": 4,
+              "formula": "4",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "hoa_goc_tran",
+              "unit_price": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tầng 2",
+      "floor_order": 2,
+      "rooms": [
+        {
+          "name": "Phòng ngủ",
+          "items": [
+            {
+              "name": "Cổ trần",
+              "category": "Cổ trần",
+              "unit": "m",
+              "qty": 23.64,
+              "formula": "(4,48 + 7,34) x 2",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "co_tran",
+              "unit_price": 0
+            },
+            {
+              "name": "Hắt sáng",
+              "category": "Hắt sáng",
+              "unit": "m",
+              "qty": 17.3,
+              "formula": "(3,23 + 5,42) x 2",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "hat_sang",
+              "unit_price": 0
+            },
+            {
+              "name": "Nẹp đáy",
+              "category": "Nẹp đáy",
+              "unit": "m",
+              "qty": 17.62,
+              "formula": "(3,31 + 5,5) x 2",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "nep_day",
+              "unit_price": 0
+            },
+            {
+              "name": "Khung trần (8cm)",
+              "category": "Khung trần",
+              "unit": "m",
+              "qty": 12.58,
+              "formula": "(4,26 + 2,03) x 2",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "khung_tran_8cm",
+              "unit_price": 0
+            },
+            {
+              "name": "Hoa góc trần",
+              "category": "Hoa góc trần",
+              "unit": "cái",
+              "qty": 4,
+              "formula": "4",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "hoa_goc_tran",
+              "unit_price": 0
+            },
+            {
+              "name": "Mâm ghép",
+              "category": "Mâm ghép",
+              "unit": "bộ",
+              "qty": 1,
+              "formula": "1",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "mam_ghep",
+              "unit_price": 0
+            },
+            {
+              "name": "Mâm trần φ600",
+              "category": "Mâm trần",
+              "unit": "cái",
+              "qty": 1,
+              "formula": "1",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "mam_tran_phi600",
+              "unit_price": 0
+            }
+          ]
+        },
+        {
+          "name": "Hành lang",
+          "items": [
+            {
+              "name": "Cổ trần",
+              "category": "Cổ trần",
+              "unit": "m",
+              "qty": 10.68,
+              "formula": "6,19 + 2,38 + 0,34 + 1,77",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "co_tran",
+              "unit_price": 0
+            }
+          ]
+        },
+        {
+          "name": "NVS",
+          "items": [
+            {
+              "name": "Cổ trần",
+              "category": "Cổ trần",
+              "unit": "m",
+              "qty": 11.84,
+              "formula": "2,77 + 3,11 + 2,77 + 1,66 + 0,21 + 1,15 + 0,17",
+              "note": "",
+              "status": "NEED_CHECK",
+              "confidence": "MEDIUM",
+              "product_key": "co_tran_nvs_unconfirmed",
+              "unit_price": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tầng 3",
+      "floor_order": 3,
+      "rooms": [
+        {
+          "name": "Phòng ngủ",
+          "items": [
+            {
+              "name": "Cổ trần",
+              "category": "Cổ trần",
+              "unit": "m",
+              "qty": 21.45,
+              "formula": "6,82 + 4,5 + 0,15 + 6,75 + 2,26 + 0,67 + 0,3",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "co_tran",
+              "unit_price": 0
+            },
+            {
+              "name": "Cổ trần uốn",
+              "category": "Cổ trần uốn",
+              "unit": "m",
+              "qty": 0.5,
+              "formula": "0,5",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "co_tran_uon",
+              "unit_price": 0
+            },
+            {
+              "name": "Hắt sáng",
+              "category": "Hắt sáng",
+              "unit": "m",
+              "qty": 16.88,
+              "formula": "(3,25 + 5,19) x 2",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "hat_sang",
+              "unit_price": 0
+            },
+            {
+              "name": "Nẹp đáy",
+              "category": "Nẹp đáy",
+              "unit": "m",
+              "qty": 17.2,
+              "formula": "(3,33 + 5,27) x 2",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "nep_day",
+              "unit_price": 0
+            },
+            {
+              "name": "Khung trần (8cm)",
+              "category": "Khung trần",
+              "unit": "m",
+              "qty": 12.6,
+              "formula": "(2,04 + 4,26) x 2",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "khung_tran_8cm",
+              "unit_price": 0
+            },
+            {
+              "name": "Hoa góc trần",
+              "category": "Hoa góc trần",
+              "unit": "cái",
+              "qty": 4,
+              "formula": "4",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "hoa_goc_tran",
+              "unit_price": 0
+            },
+            {
+              "name": "Mâm ghép",
+              "category": "Mâm ghép",
+              "unit": "bộ",
+              "qty": 1,
+              "formula": "1",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "mam_ghep",
+              "unit_price": 0
+            },
+            {
+              "name": "Mâm trần φ600",
+              "category": "Mâm trần",
+              "unit": "cái",
+              "qty": 1,
+              "formula": "1",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "mam_tran_phi600",
+              "unit_price": 0
+            }
+          ]
+        },
+        {
+          "name": "Hành lang",
+          "items": [
+            {
+              "name": "Cổ trần",
+              "category": "Cổ trần",
+              "unit": "m",
+              "qty": 10.91,
+              "formula": "1,84 + 6,31 + 2,42 + 0,34",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "co_tran",
+              "unit_price": 0
+            }
+          ]
+        },
+        {
+          "name": "NVS",
+          "items": [
+            {
+              "name": "Cổ trần 83030-70",
+              "category": "Cổ trần",
+              "unit": "m",
+              "qty": 11.88,
+              "formula": "2,8 + 3,11 + 2,8 + 1,62 + 1,15 + 0,21 + 0,19",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "83030-70",
+              "unit_price": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tầng 4",
+      "floor_order": 4,
+      "rooms": [
+        {
+          "name": "Phòng ngủ",
+          "items": [
+            {
+              "name": "Cổ trần",
+              "category": "Cổ trần",
+              "unit": "m",
+              "qty": 21.45,
+              "formula": "6,82 + 4,5 + 0,15 + 6,75 + 2,26 + 0,67 + 0,3",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "co_tran",
+              "unit_price": 0
+            },
+            {
+              "name": "Cổ trần uốn",
+              "category": "Cổ trần uốn",
+              "unit": "m",
+              "qty": 0.5,
+              "formula": "0,5",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "co_tran_uon",
+              "unit_price": 0
+            },
+            {
+              "name": "Hắt sáng",
+              "category": "Hắt sáng",
+              "unit": "m",
+              "qty": 16.88,
+              "formula": "(3,25 + 5,19) x 2",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "hat_sang",
+              "unit_price": 0
+            },
+            {
+              "name": "Nẹp đáy",
+              "category": "Nẹp đáy",
+              "unit": "m",
+              "qty": 17.2,
+              "formula": "(3,33 + 5,27) x 2",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "nep_day",
+              "unit_price": 0
+            },
+            {
+              "name": "Khung trần (8cm)",
+              "category": "Khung trần",
+              "unit": "m",
+              "qty": 12.6,
+              "formula": "(2,04 + 4,26) x 2",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "khung_tran_8cm",
+              "unit_price": 0
+            },
+            {
+              "name": "Hoa góc trần",
+              "category": "Hoa góc trần",
+              "unit": "cái",
+              "qty": 4,
+              "formula": "4",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "hoa_goc_tran",
+              "unit_price": 0
+            },
+            {
+              "name": "Mâm ghép",
+              "category": "Mâm ghép",
+              "unit": "bộ",
+              "qty": 1,
+              "formula": "1",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "mam_ghep",
+              "unit_price": 0
+            },
+            {
+              "name": "Mâm trần φ600",
+              "category": "Mâm trần",
+              "unit": "cái",
+              "qty": 1,
+              "formula": "1",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "mam_tran_phi600",
+              "unit_price": 0
+            }
+          ]
+        },
+        {
+          "name": "Hành lang",
+          "items": [
+            {
+              "name": "Cổ trần",
+              "category": "Cổ trần",
+              "unit": "m",
+              "qty": 10.91,
+              "formula": "1,84 + 6,31 + 2,42 + 0,34",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "co_tran",
+              "unit_price": 0
+            }
+          ]
+        },
+        {
+          "name": "NVS",
+          "items": [
+            {
+              "name": "Cổ trần 83030-70",
+              "category": "Cổ trần",
+              "unit": "m",
+              "qty": 11.88,
+              "formula": "2,8 + 3,11 + 2,8 + 1,62 + 1,15 + 0,21 + 0,19",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "83030-70",
+              "unit_price": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tầng 5",
+      "floor_order": 5,
+      "rooms": [
+        {
+          "name": "Phòng ngủ 1",
+          "items": [
+            {
+              "name": "Cổ trần",
+              "category": "Cổ trần",
+              "unit": "m",
+              "qty": 13.01,
+              "formula": "4,5 + 2,26 + 0,67 + 0,3 + 5,28",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "co_tran",
+              "unit_price": 0
+            },
+            {
+              "name": "Cổ trần uốn",
+              "category": "Cổ trần uốn",
+              "unit": "m",
+              "qty": 0.5,
+              "formula": "0,5",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "co_tran_uon",
+              "unit_price": 0
+            },
+            {
+              "name": "Hắt sáng",
+              "category": "Hắt sáng",
+              "unit": "m",
+              "qty": 14.22,
+              "formula": "(3,88 + 3,23) x 2",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "hat_sang",
+              "unit_price": 0
+            },
+            {
+              "name": "Khung trần (8cm)",
+              "category": "Khung trần",
+              "unit": "m",
+              "qty": null,
+              "formula": "(2,?2 + 2,66) x 2",
+              "note": "",
+              "status": "NEED_USER_CONFIRMATION",
+              "confidence": "LOW",
+              "product_key": "khung_tran_8cm",
+              "unit_price": 0
+            },
+            {
+              "name": "Nẹp đáy (4cm)",
+              "category": "Nẹp đáy",
+              "unit": "m",
+              "qty": 14.54,
+              "formula": "(3,96 + 3,31) x 2",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "nep_day_4cm",
+              "unit_price": 0
+            },
+            {
+              "name": "Hoa góc trần",
+              "category": "Hoa góc trần",
+              "unit": "cái",
+              "qty": 4,
+              "formula": "4",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "hoa_goc_tran",
+              "unit_price": 0
+            },
+            {
+              "name": "Mâm trần φ600",
+              "category": "Mâm trần",
+              "unit": "cái",
+              "qty": 1,
+              "formula": "1",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "mam_tran_phi600",
+              "unit_price": 0
+            }
+          ]
+        },
+        {
+          "name": "Hành lang",
+          "items": [
+            {
+              "name": "Cổ trần",
+              "category": "Cổ trần",
+              "unit": "m",
+              "qty": 10.91,
+              "formula": "6,31 + 1,84 + 2,42 + 0,34",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "co_tran",
+              "unit_price": 0
+            }
+          ]
+        },
+        {
+          "name": "NVS",
+          "items": [
+            {
+              "name": "Cổ trần 83030-70",
+              "category": "Cổ trần",
+              "unit": "m",
+              "qty": 11.85,
+              "formula": "2,8 + 3,08 + 2,8 + 1,62 + 1,15 + 0,21 + 0,19",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "83030-70",
+              "unit_price": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tầng 6",
+      "floor_order": 6,
+      "rooms": [
+        {
+          "name": "Phòng 1",
+          "items": [
+            {
+              "name": "Hắt sáng uốn",
+              "category": "Hắt sáng uốn",
+              "unit": "m",
+              "qty": 3.6,
+              "formula": "0,6 x 6",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "hat_sang_uon",
+              "unit_price": 0
+            },
+            {
+              "name": "Hắt sáng",
+              "category": "Hắt sáng",
+              "unit": "m",
+              "qty": 11.52,
+              "formula": "(2,63 + 3,13) x 2",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "hat_sang",
+              "unit_price": 0
+            },
+            {
+              "name": "Nẹp đáy + khung trần uốn",
+              "category": "Nẹp đáy + khung trần uốn",
+              "unit": "m",
+              "qty": 4.72,
+              "formula": "(0,5 + 0,68) x 4",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "nep_day_khung_tran_uon",
+              "unit_price": 0
+            },
+            {
+              "name": "Nẹp đáy + khung trần",
+              "category": "Nẹp đáy + khung trần",
+              "unit": "m",
+              "qty": 18.5,
+              "formula": "(1,5 + 1,83) x 2 + (2,71 + 3,21) x 2",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "nep_day_khung_tran",
+              "unit_price": 0
+            },
+            {
+              "name": "Cổ trần",
+              "category": "Cổ trần",
+              "unit": "m",
+              "qty": 19.02,
+              "formula": "(5 + 4,51) x 2",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "co_tran",
+              "unit_price": 0
+            },
+            {
+              "name": "Hoa góc trần",
+              "category": "Hoa góc trần",
+              "unit": "cái",
+              "qty": 4,
+              "formula": "4",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "hoa_goc_tran",
+              "unit_price": 0
+            },
+            {
+              "name": "Mâm trần φ600",
+              "category": "Mâm trần",
+              "unit": "cái",
+              "qty": 1,
+              "formula": "1",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "mam_tran_phi600",
+              "unit_price": 0
+            }
+          ]
+        },
+        {
+          "name": "Hành lang",
+          "items": [
+            {
+              "name": "Cổ trần",
+              "category": "Cổ trần",
+              "unit": "m",
+              "qty": 11.18,
+              "formula": "1,82 + 3,9 + 4,5 + 0,96",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "co_tran",
+              "unit_price": 0
+            }
+          ]
+        },
+        {
+          "name": "Sân phơi",
+          "items": [
+            {
+              "name": "Cổ trần",
+              "category": "Cổ trần",
+              "unit": "m",
+              "qty": 9.97,
+              "formula": "1,02 + 4,36 + 1,17 + 2,16 + 1,26",
+              "note": "",
+              "status": "PASS",
+              "confidence": "HIGH",
+              "product_key": "co_tran",
+              "unit_price": 0
+            }
+          ]
+        },
+        {
+          "name": "NVS",
+          "items": [
+            {
+              "name": "Cổ trần 83030-70",
+              "category": "Cổ trần",
+              "unit": "m",
+              "qty": 5.6,
+              "formula": "(0,96 + 1,99) x 2 - 0,3",
+              "note": "",
+              "status": "NEED_CHECK",
+              "confidence": "MEDIUM",
+              "product_key": "83030-70",
+              "unit_price": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+import { router } from 'expo-router';
+import { Screen } from '@/components/Screen';
+import { Card, ModuleRow, Muted } from '@/components/ui';
+import { Text } from 'react-native';
+import { colors } from '@/constants/theme';
+export default function Profile(){return <Screen title="Cá nhân" subtitle="Thiết lập QQIVA Business"><Card><Text style={{fontWeight:'900',fontSize:18,color:colors.text}}>QQIVA Business Offline</Text><Muted>Mọi dữ liệu nghiệp vụ, ảnh và file được lưu cục bộ trên thiết bị. Có thể sao lưu ra file khi cần.</Muted></Card><ModuleRow icon="office-building-cog-outline" title="Hồ sơ công ty" subtitle="Tên, địa chỉ, ngân hàng, logo, chữ ký, dấu" onPress={()=>router.push('/company')}/><ModuleRow icon="cog-outline" title="Cài đặt ứng dụng" subtitle="Mẫu chứng từ, bố cục, ngôn ngữ" onPress={()=>router.push('/settings')}/><ModuleRow icon="database-export-outline" title="Sao lưu / khôi phục" subtitle="Xuất backup gồm dữ liệu và media" onPress={()=>router.push('/backup')}/><ModuleRow icon="stethoscope" title="Kiểm tra dữ liệu" subtitle="System Audit" onPress={()=>router.push('/audit')}/><ModuleRow icon="code-json" title="Chuẩn AI JSON" subtitle="Schema và kiểm tra dữ liệu đầu vào" onPress={()=>router.push('/ai-standard')}/></Screen>}

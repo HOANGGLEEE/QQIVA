@@ -1,0 +1,15 @@
+import { useCallback, useEffect, useState } from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+import { Screen } from '@/components/Screen';
+import { Card, ModuleRow, SectionTitle } from '@/components/ui';
+import { colors } from '@/constants/theme';
+import { listDocuments } from '@/services/documentEngine';
+import { listInvoiceSnapshots } from '@/services/payments';
+import { getFinance } from '@/services/finance';
+import { listSales, listStockBalances } from '@/services/retail';
+import { listProjects } from '@/services/customersProjects';
+import { router } from 'expo-router';
+const money=(v:any)=>`${Math.round(Number(v||0)).toLocaleString('vi-VN')} đ`;
+export default function Reports(){const [d,setD]=useState<any>({});const [loading,setLoading]=useState(false);const load=useCallback(async()=>{setLoading(true);try{const [docs,inv,fin,sales,stock,projects]=await Promise.all([listDocuments(),listInvoiceSnapshots(),getFinance('BUSINESS'),listSales(),listStockBalances(),listProjects()]);setD({docs,inv,fin,sales,stock,projects})}finally{setLoading(false)}},[]);useEffect(()=>{void load()},[load]);const docTotal=(d.docs||[]).reduce((s:number,x:any)=>s+Number(x.total||0),0);const debt=(d.inv||[]).reduce((s:number,x:any)=>s+Number(x.remaining||0),0);const saleTotal=(d.sales||[]).reduce((s:number,x:any)=>s+Number(x.total_minor||0),0);const inventory=(d.stock||[]).reduce((s:number,x:any)=>s+Number(x.qty||0)*Number(x.retail_price_minor||0),0);
+return <Screen title="Báo cáo" subtitle="Tổng hợp dữ liệu offline" refreshing={loading} onRefresh={load}><View style={s.grid}><Stat t="Giá trị chứng từ" v={money(docTotal)}/><Stat t="Công nợ" v={money(debt)}/><Stat t="Doanh số POS" v={money(saleTotal)}/><Stat t="Giá trị tồn ước tính" v={money(inventory)}/><Stat t="Thu tháng" v={money(d.fin?.summary?.period_income)}/><Stat t="Chi tháng" v={money(d.fin?.summary?.period_expense)}/></View><SectionTitle>Chi tiết</SectionTitle><ModuleRow icon="file-chart-outline" title="Chứng từ" subtitle={`${d.docs?.length||0} báo giá / hóa đơn`} onPress={()=>router.push('/documents')}/><ModuleRow icon="office-building-marker-outline" title="Công trình" subtitle={`${d.projects?.length||0} công trình`} onPress={()=>router.push('/customers-projects')}/><ModuleRow icon="warehouse" title="Tồn kho" subtitle={`${d.stock?.length||0} SKU đang theo dõi`} onPress={()=>router.push('/inventory')}/><ModuleRow icon="cash-register" title="Bán hàng" subtitle={`${d.sales?.length||0} giao dịch POS`} onPress={()=>router.push('/sales')}/><ModuleRow icon="wallet-outline" title="Thu chi" subtitle="Xem giao dịch, tài khoản và ngân sách" onPress={()=>router.push('/finance')}/></Screen>}
+function Stat({t,v}:{t:string;v:string}){return <Card style={s.stat}><Text style={s.t}>{t}</Text><Text style={s.v}>{v}</Text></Card>}const s=StyleSheet.create({grid:{flexDirection:'row',flexWrap:'wrap',gap:9},stat:{width:'48%'},t:{fontSize:11,color:colors.textSoft,fontWeight:'700'},v:{fontSize:16,color:colors.text,fontWeight:'900'}});

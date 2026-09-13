@@ -1,0 +1,505 @@
+{
+  "schema_version": "qqiva.finance.v1",
+  "storage_mode": "LOCAL_FIRST",
+  "cloud_ready": true,
+  "business_id": "LOCAL-BUSINESS",
+  "owner_user_id": "LOCAL-OWNER",
+  "books": {
+    "BUSINESS": {
+      "id": "BOOK-BUSINESS-LOCAL",
+      "type": "BUSINESS",
+      "business_id": "LOCAL-BUSINESS",
+      "owner_user_id": "LOCAL-OWNER",
+      "currency": "VND",
+      "created_at": "2026-09-06T21:20:41",
+      "sync": {
+        "status": "LOCAL_ONLY",
+        "revision": 1
+      },
+      "categories": [
+        {
+          "id": "biz-exp-material",
+          "type": "EXPENSE",
+          "name": "Vật tư",
+          "icon": "🧱",
+          "active": true,
+          "sort_order": 10,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "biz-exp-labor",
+          "type": "EXPENSE",
+          "name": "Nhân công",
+          "icon": "👥",
+          "active": true,
+          "sort_order": 20,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "biz-exp-salary",
+          "type": "EXPENSE",
+          "name": "Lương",
+          "icon": "💵",
+          "active": true,
+          "sort_order": 30,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "biz-exp-transport",
+          "type": "EXPENSE",
+          "name": "Vận chuyển",
+          "icon": "🚚",
+          "active": true,
+          "sort_order": 40,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "biz-exp-machine",
+          "type": "EXPENSE",
+          "name": "Máy móc",
+          "icon": "🏗️",
+          "active": true,
+          "sort_order": 50,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "biz-exp-food",
+          "type": "EXPENSE",
+          "name": "Ăn uống CV",
+          "icon": "🍽️",
+          "active": true,
+          "sort_order": 60,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "biz-exp-supplier",
+          "type": "EXPENSE",
+          "name": "Thanh toán NCC",
+          "icon": "🤝",
+          "active": true,
+          "sort_order": 70,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "biz-exp-other",
+          "type": "EXPENSE",
+          "name": "Khác",
+          "icon": "•••",
+          "active": true,
+          "sort_order": 80,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "biz-inc-customer",
+          "type": "INCOME",
+          "name": "Khách thanh toán",
+          "icon": "💳",
+          "active": true,
+          "sort_order": 10,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "biz-inc-advance",
+          "type": "INCOME",
+          "name": "Tạm ứng",
+          "icon": "💰",
+          "active": true,
+          "sort_order": 20,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "biz-inc-deposit",
+          "type": "INCOME",
+          "name": "Đặt cọc",
+          "icon": "🧾",
+          "active": true,
+          "sort_order": 30,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "biz-inc-project",
+          "type": "INCOME",
+          "name": "Thu công trình",
+          "icon": "🏗️",
+          "active": true,
+          "sort_order": 40,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "biz-inc-sales",
+          "type": "INCOME",
+          "name": "Bán hàng",
+          "icon": "🛍️",
+          "active": true,
+          "sort_order": 50,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "biz-inc-debt",
+          "type": "INCOME",
+          "name": "Thu hồi công nợ",
+          "icon": "📥",
+          "active": true,
+          "sort_order": 60,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "biz-inc-other",
+          "type": "INCOME",
+          "name": "Thu khác",
+          "icon": "＋",
+          "active": true,
+          "sort_order": 70,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "CAT-8D2D55563A44",
+          "type": "EXPENSE",
+          "name": "phào",
+          "icon": "🧱",
+          "parent_id": "biz-exp-material",
+          "active": true,
+          "sort_order": 10,
+          "system_default": false,
+          "updated_at": "2026-09-06T23:35:56"
+        },
+        {
+          "id": "CAT-F9DC97988CF7",
+          "type": "EXPENSE",
+          "name": "keo",
+          "icon": "🥇",
+          "parent_id": "biz-exp-material",
+          "active": true,
+          "sort_order": 20.0,
+          "system_default": false,
+          "updated_at": "2026-09-06T23:36:15"
+        }
+      ],
+      "accounts": [
+        {
+          "id": "biz-acc-cash",
+          "name": "Tiền mặt",
+          "kind": "CASH",
+          "opening_balance": 0.0,
+          "active": true,
+          "sort_order": 10,
+          "system_default": true
+        },
+        {
+          "id": "biz-acc-bank",
+          "name": "Tài khoản ngân hàng",
+          "kind": "BANK",
+          "opening_balance": 0.0,
+          "active": true,
+          "sort_order": 20,
+          "system_default": true
+        }
+      ],
+      "budgets": [],
+      "transactions": [
+        {
+          "id": "FIN-218F27F8354644",
+          "created_at": "2026-09-06T21:20:41",
+          "created_by": "QQIVA_LOCAL",
+          "book_id": "BOOK-BUSINESS-LOCAL",
+          "book_type": "BUSINESS",
+          "business_id": "LOCAL-BUSINESS",
+          "owner_user_id": "LOCAL-OWNER",
+          "transaction_type": "EXPENSE",
+          "amount": 50000000.0,
+          "currency": "VND",
+          "date": "2026-09-06",
+          "note": "",
+          "category_id": "biz-exp-material",
+          "category_name": "Vật tư",
+          "account_id": "biz-acc-cash",
+          "account_name": "Tiền mặt",
+          "project_uid": "",
+          "project_name": "",
+          "party_type": "SUPPLIER",
+          "party_name": "",
+          "source_type": "MANUAL",
+          "source_id": "",
+          "updated_at": "2026-09-06T21:20:41",
+          "sync": {
+            "status": "LOCAL_ONLY",
+            "revision": 1
+          }
+        },
+        {
+          "id": "FIN-093977D187B04B",
+          "created_at": "2026-09-06T21:21:05",
+          "created_by": "QQIVA_LOCAL",
+          "book_id": "BOOK-BUSINESS-LOCAL",
+          "book_type": "BUSINESS",
+          "business_id": "LOCAL-BUSINESS",
+          "owner_user_id": "LOCAL-OWNER",
+          "transaction_type": "INCOME",
+          "amount": 100000000.0,
+          "currency": "VND",
+          "date": "2026-09-06",
+          "note": "",
+          "category_id": "biz-inc-customer",
+          "category_name": "Khách thanh toán",
+          "account_id": "biz-acc-cash",
+          "account_name": "Tiền mặt",
+          "project_uid": "",
+          "project_name": "",
+          "party_type": "CUSTOMER",
+          "party_name": "",
+          "source_type": "MANUAL",
+          "source_id": "",
+          "updated_at": "2026-09-06T21:21:05",
+          "sync": {
+            "status": "LOCAL_ONLY",
+            "revision": 1
+          }
+        },
+        {
+          "id": "FIN-7E522E601F5F4A",
+          "created_at": "2026-09-06T21:21:55",
+          "created_by": "QQIVA_LOCAL",
+          "book_id": "BOOK-BUSINESS-LOCAL",
+          "book_type": "BUSINESS",
+          "business_id": "LOCAL-BUSINESS",
+          "owner_user_id": "LOCAL-OWNER",
+          "transaction_type": "EXPENSE",
+          "amount": 100000000.0,
+          "currency": "VND",
+          "date": "2026-09-06",
+          "note": "",
+          "category_id": "biz-exp-material",
+          "category_name": "Vật tư",
+          "account_id": "biz-acc-bank",
+          "account_name": "Tài khoản ngân hàng",
+          "project_uid": "",
+          "project_name": "",
+          "party_type": "SUPPLIER",
+          "party_name": "A khải",
+          "source_type": "MANUAL",
+          "source_id": "",
+          "updated_at": "2026-09-06T21:21:55",
+          "sync": {
+            "status": "LOCAL_ONLY",
+            "revision": 1
+          }
+        }
+      ],
+      "updated_at": "2026-09-06T23:36:15",
+      "customers": []
+    },
+    "PERSONAL": {
+      "id": "BOOK-PERSONAL-LOCAL",
+      "type": "PERSONAL",
+      "business_id": "",
+      "owner_user_id": "LOCAL-OWNER",
+      "currency": "VND",
+      "created_at": "2026-09-06T21:20:41",
+      "sync": {
+        "status": "LOCAL_ONLY",
+        "revision": 1
+      },
+      "categories": [
+        {
+          "id": "per-exp-food",
+          "type": "EXPENSE",
+          "name": "Ăn uống",
+          "icon": "🍽️",
+          "active": true,
+          "sort_order": 10,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "per-exp-travel",
+          "type": "EXPENSE",
+          "name": "Đi lại",
+          "icon": "🚗",
+          "active": true,
+          "sort_order": 20,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "per-exp-shopping",
+          "type": "EXPENSE",
+          "name": "Mua sắm",
+          "icon": "🛍️",
+          "active": true,
+          "sort_order": 30,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "per-exp-fun",
+          "type": "EXPENSE",
+          "name": "Giải trí",
+          "icon": "🎮",
+          "active": true,
+          "sort_order": 40,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "per-exp-health",
+          "type": "EXPENSE",
+          "name": "Y tế",
+          "icon": "💊",
+          "active": true,
+          "sort_order": 50,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "per-exp-education",
+          "type": "EXPENSE",
+          "name": "Giáo dục",
+          "icon": "🎓",
+          "active": true,
+          "sort_order": 60,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "per-exp-home",
+          "type": "EXPENSE",
+          "name": "Nhà ở",
+          "icon": "🏠",
+          "active": true,
+          "sort_order": 70,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "per-exp-bills",
+          "type": "EXPENSE",
+          "name": "Hóa đơn & dịch vụ",
+          "icon": "💡",
+          "active": true,
+          "sort_order": 80,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "per-exp-other",
+          "type": "EXPENSE",
+          "name": "Khác",
+          "icon": "•••",
+          "active": true,
+          "sort_order": 90,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "per-inc-salary",
+          "type": "INCOME",
+          "name": "Lương",
+          "icon": "💼",
+          "active": true,
+          "sort_order": 10,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "per-inc-bonus",
+          "type": "INCOME",
+          "name": "Thưởng",
+          "icon": "🎁",
+          "active": true,
+          "sort_order": 20,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "per-inc-business",
+          "type": "INCOME",
+          "name": "Kinh doanh",
+          "icon": "🏪",
+          "active": true,
+          "sort_order": 30,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "per-inc-invest",
+          "type": "INCOME",
+          "name": "Đầu tư",
+          "icon": "📈",
+          "active": true,
+          "sort_order": 40,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "per-inc-gift",
+          "type": "INCOME",
+          "name": "Được tặng",
+          "icon": "🎁",
+          "active": true,
+          "sort_order": 50,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "per-inc-other",
+          "type": "INCOME",
+          "name": "Thu khác",
+          "icon": "＋",
+          "active": true,
+          "sort_order": 60,
+          "system_default": true,
+          "parent_id": ""
+        },
+        {
+          "id": "CAT-60E42D614B15",
+          "type": "EXPENSE",
+          "name": "Quần áo",
+          "icon": "•",
+          "active": true,
+          "sort_order": 160,
+          "system_default": false,
+          "parent_id": ""
+        }
+      ],
+      "accounts": [
+        {
+          "id": "per-acc-cash",
+          "name": "Tiền mặt",
+          "kind": "CASH",
+          "opening_balance": 0.0,
+          "active": true,
+          "sort_order": 10,
+          "system_default": true
+        },
+        {
+          "id": "per-acc-bank",
+          "name": "Tài khoản ngân hàng",
+          "kind": "BANK",
+          "opening_balance": 0.0,
+          "active": true,
+          "sort_order": 20,
+          "system_default": true
+        }
+      ],
+      "budgets": [],
+      "transactions": [],
+      "updated_at": "2026-09-06T21:23:12",
+      "customers": []
+    }
+  }
+}

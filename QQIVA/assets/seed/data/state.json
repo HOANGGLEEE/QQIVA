@@ -1,0 +1,260 @@
+{
+  "ceiling_materials": [],
+  "company": {
+    "address": "109 Vũ Văn Cẩn - Văn Nhuế - Mỹ Hào Hưng Yên",
+    "bank_account": "",
+    "bank_account_name": "",
+    "bank_name": "",
+    "contract_party_b": {},
+    "contract_party_b_saved": false,
+    "contract_party_b_updated_at": "",
+    "contract_role": "BÊN BÁN / NHÀ THẦU",
+    "description": "Chuyên : Cung Cấp Và Thi Công trần picomat , Thạch cao , Phào Chỉ PU , PS , Rát Vàng",
+    "email": "",
+    "logo": "static/default_logo.png",
+    "name": "NHÀ ĐẸP QUYỀN QUÝ",
+    "phone": "0968.666.923 / 08 9999 6333",
+    "representative": "",
+    "representative_title": "",
+    "signature": "",
+    "signature_name": "",
+    "signature_title": "",
+    "stamp": "",
+    "tax_id": "",
+    "website": ""
+  },
+  "direct_measurement": {
+    "confirmation": {
+      "confirmed_at": "",
+      "note": "",
+      "signature": "",
+      "signer_name": "",
+      "snapshot": null,
+      "snapshot_hash": "",
+      "status": "UNCONFIRMED"
+    },
+    "floors": [
+      {
+        "_direct_floor_uid": "df_mtu9qcg6_99c8aiy",
+        "name": "Tầng 1",
+        "rooms": [
+          {
+            "_direct_room_uid": "dr_mtu9qcg6_pknrglc",
+            "items": [
+              {
+                "_direct_uid": "di_mtu9qcg6_vkomhz9",
+                "category": "phao",
+                "confidence": "HIGH",
+                "description": "",
+                "formula": "",
+                "image": "",
+                "library_id": "",
+                "name": "",
+                "note": "",
+                "original_qty": 0,
+                "price": 0,
+                "qty": 0,
+                "source": "DIRECT_MEASUREMENT",
+                "status": "LOCK",
+                "unit": "md"
+              }
+            ],
+            "name": "Phòng 1"
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "document_kind": "invoice",
+      "last_stage": "preview",
+      "measure_date": "2026-09-09",
+      "measured_by": "",
+      "output_mode": "DOCUMENT",
+      "project_name": ""
+    }
+  },
+  "document_language": "vi",
+  "document_mode": "quote",
+  "floors": [],
+  "invoice_mode": "phao",
+  "mam_sets": [],
+  "materials": [],
+  "new_document": {
+    "created_at": "2026-09-09T15:42:49.704Z",
+    "scope_note": "",
+    "sources": [],
+    "workflow_version": "1.3.0"
+  },
+  "project": {
+    "address": "",
+    "advance": 0,
+    "advances": [
+      {
+        "amount": 0,
+        "date": "",
+        "method": "CK"
+      }
+    ],
+    "customer": "",
+    "customer_code": "",
+    "payment_terms": {
+      "deposit_terms": "",
+      "due_date": "",
+      "due_days": 0,
+      "enabled": false,
+      "installment_terms": "",
+      "method": "bank_transfer",
+      "method_other": "",
+      "terms_text": "",
+      "transfer_note": ""
+    },
+    "pricing": {
+      "discount_enabled": false,
+      "discount_type": "percent",
+      "discount_value": 0,
+      "surcharge_enabled": false,
+      "surcharge_label": "Phụ phí",
+      "surcharge_type": "fixed",
+      "surcharge_value": 0,
+      "vat_enabled": false,
+      "vat_rate": 10
+    },
+    "project_code": "",
+    "quote_date": "",
+    "quote_no": "",
+    "quote_note": "Báo giá theo khối lượng dự toán; khối lượng nghiệm thu thực tế có thể thay đổi.",
+    "signing": {
+      "customer_name": "",
+      "customer_signature": "",
+      "customer_title": "",
+      "enabled": false,
+      "show_company_signature": true,
+      "show_company_stamp": true
+    },
+    "valid_until": "",
+    "validity_days": 30
+  },
+  "project_quote": {
+    "document_mode": "quote",
+    "invoice_mode": "phao",
+    "materials": [],
+    "ceiling_materials": [],
+    "mam_sets": [],
+    "floors": []
+  },
+  "quick_flow": {
+    "invoice": {
+      "created_at": "2026-09-09T15:42:49.703Z",
+      "customize": {
+        "advances": [],
+        "doc_date": "",
+        "doc_no": "",
+        "orientation": "auto",
+        "payment_terms": {
+          "deposit_terms": "",
+          "due_date": "",
+          "due_days": 0,
+          "enabled": true,
+          "installment_terms": "",
+          "method": "bank_transfer",
+          "method_other": "",
+          "terms_text": "",
+          "transfer_note": ""
+        },
+        "pricing": {
+          "discount_enabled": false,
+          "discount_type": "percent",
+          "discount_value": 0,
+          "surcharge_enabled": false,
+          "surcharge_label": "Phụ phí",
+          "surcharge_type": "fixed",
+          "surcharge_value": 0,
+          "vat_enabled": false,
+          "vat_rate": 10
+        },
+        "template": "images",
+        "validity_days": 30
+      },
+      "info": {
+        "address": "",
+        "customer": "",
+        "note": "",
+        "phone": "",
+        "tax_id": "",
+        "title": ""
+      },
+      "items": [],
+      "quote_state": null,
+      "stage": "info"
+    },
+    "quote": {
+      "created_at": "2026-09-09T15:42:49.703Z",
+      "customize": {
+        "advances": [],
+        "doc_date": "",
+        "doc_no": "",
+        "orientation": "auto",
+        "payment_terms": {
+          "deposit_terms": "",
+          "due_date": "",
+          "due_days": 0,
+          "enabled": true,
+          "installment_terms": "",
+          "method": "bank_transfer",
+          "method_other": "",
+          "terms_text": "",
+          "transfer_note": ""
+        },
+        "pricing": {
+          "discount_enabled": false,
+          "discount_type": "percent",
+          "discount_value": 0,
+          "surcharge_enabled": false,
+          "surcharge_label": "Phụ phí",
+          "surcharge_type": "fixed",
+          "surcharge_value": 0,
+          "vat_enabled": false,
+          "vat_rate": 10
+        },
+        "template": "images",
+        "validity_days": 30
+      },
+      "info": {
+        "address": "",
+        "customer": "",
+        "note": "",
+        "phone": "",
+        "tax_id": "",
+        "title": ""
+      },
+      "items": [],
+      "quote_state": null,
+      "stage": "info"
+    }
+  },
+  "quick_invoice": {
+    "items": [],
+    "quote_state": null
+  },
+  "quick_quote": {
+    "items": [],
+    "quote_state": null
+  },
+  "quick_quote_items": [],
+  "quote_mode": "PROJECT",
+  "settings": {
+    "default_product_image_v160": true,
+    "direct_workflow_stage": "preview",
+    "document_language": "vi",
+    "export_column_preset": "image",
+    "export_image_fit": "contain",
+    "export_image_size": "large",
+    "export_layout_density": "compact",
+    "export_orientation": "auto",
+    "export_template": "images",
+    "last_document_stage": "source",
+    "quick_default_migrated_1532": true,
+    "quick_kind": "quote",
+    "ui_language": "vi"
+  }
+}
